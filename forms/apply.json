@@ -1,0 +1,310 @@
+{
+  "name": "Show Application",
+  "spec": {
+    "info": {
+      "after": "",
+      "logic": "start",
+      "type": "first",
+      "title": "Welcome!",
+      "body": "To apply for a show, you need to answer a few questions. If you've got all the information to hand, it should take around 5-10 minutes.",
+      "continue": "I'm ready"
+    },
+    "member": {
+      "logic": {
+        "$exists": "info"
+      },
+      "after": "info",
+      "type": "option",
+      "title": "Are you a Freshair member?",
+      "options": ["Yes", "No"]
+    },
+    "membership_bought": {
+      "logic": {
+        "$equal": {
+          "member": "No"
+        }
+      },
+      "after": "member",
+      "type": "information",
+      "title": "Buy Membership",
+      "body": "You must be a paid member to have a show, cohost a show, produce, or be a part of a team. Please go to the FreshAir page on the EUSA website to purchase membership before continuing.",
+      "continue": "I've bought membership"
+    },
+    "show_exists": {
+      "after": ["member", "membership_bought"],
+      "logic": {
+        "$any": {
+          "$equal": {
+            "member": "Yes"
+          },
+          "$exists": "membership_bought"
+        }
+      },
+      "type": "option",
+      "title": "Pre-existing show",
+      "body": "Have you done this show before?",
+      "options": ["No", "Last Semester", "Earlier"]
+    },
+    "show_slug": {
+      "after": "show_exists",
+      "logic": {
+        "$equal": {
+          "show_exists": "Last Semester"
+        }
+      },
+      "type": "select",
+      "title": "Select show",
+      "source": "http://localhost:8047/mine"
+    },
+    "show_details": {
+      "after": "show_exists",
+      "logic": {
+        "$nequal": {
+          "show_exists": "Last Semester"
+        }
+      },
+      "type": "input",
+      "title": "Show details",
+      "inputs": [
+        {
+          "key": "name",
+          "type": "text",
+          "placeholder": "Show name..."
+        },
+        {
+          "key": "description",
+          "type": "text",
+          "placeholder": "Describe your show in 100 words or fewer..."
+        }
+      ]
+    },
+    "show_pic": {
+      "after": "show_details",
+      "logic": { "$exists": "show_details" },
+      "type": "upload",
+      "title": "Choose a show picture",
+      "prompt": "Click or drop PNG/JPEG here...",
+      "body": "This will be shown on Freshair.org.uk to identify your show",
+      "contentType": ["image/png", "image/jpeg"],
+      "url": "http://localhost:8764/upload"
+    },
+    "show_people": {
+      "logic": { "$exists": "show_pic" },
+      "after": "show_pic",
+      "type": "filter",
+      "title": "Who else is involved?",
+      "body": "List all involved presenters",
+      "source": "http://localhost:8007/list"
+    },
+    "show_demo": {
+      "logic": { "$exists": "show_people" },
+      "after": "show_people",
+      "type": "upload",
+      "title": "Upload your show demo",
+      "prompt": "Click or drop MP3 here...",
+      "contentType": ["audio/mpeg"],
+      "url": "http://localhost:8764/upload"
+    },
+    "show_category": {
+      "logic": {
+        "$any": ["show_demo", "show_slug"]
+      },
+      "after": ["show_demo", "show_slug"],
+      "type": "select",
+      "title": "Category",
+      "body": "Which category best describes your show?",
+      "source": "http://localhost:8047/categories"
+    },
+    "dance_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "dance-music"
+        }
+      },
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "type": "availability",
+      "title": "When are you available?",
+      "options": [20, 21, 22, 23]
+    },
+    "indie_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "indie-music"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "hip_hop_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "hip-hop-r-b-music"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [17, 18, 19, 20, 21, 22, 23]
+    },
+    "pop_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "pop-music"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "other_music_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "other-music"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "game_show_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "game-show"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    "politics_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "politics"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    "debate_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "discussion-debate"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    "pop_culture_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "pop-culture"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "sport_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "sport"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "comedy_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "comedy"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+
+      "title": "When are you available?",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "other_availability": {
+      "logic": {
+        "$equal": {
+          "show_category": "other"
+        }
+      },
+      "type": "availability",
+      "after": "show_category",
+
+      "title": "When are you available?",
+      "body": "Each slot is an hour long. Please select as many as possible to help us fit you in the schedule.",
+      "options": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+    },
+    "finished": {
+      "logic": {
+        "$any": [
+          "other_availability",
+          "comedy_availability",
+          "sport_availability",
+          "pop_culture_availability",
+          "debate_availability",
+          "politics_availability",
+          "game_show_availability",
+          "dance_availability",
+          "indie_availability",
+          "pop_availability",
+          "hip_hop_availability",
+          "other_music_availability"
+        ]
+      },
+      "after": [
+        "other_availability",
+        "comedy_availability",
+        "sport_availability",
+        "pop_culture_availability",
+        "debate_availability",
+        "politics_availability",
+        "game_show_availability",
+        "dance_availability",
+        "indie_availability",
+        "pop_availability",
+        "hip_hop_availability",
+        "other_music_availability"
+      ],
+      "type": "last",
+      "title": "Thank you for applying!",
+      "body": "We'll get back to you as soon as we can."
+    }
+  }
+}
