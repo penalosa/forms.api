@@ -98,6 +98,7 @@ app.post("/submit/:slug", async (req, res) => {
       }
     ).then(r => r.json());
     if (!verify.ok) {
+      console.log(verify);
       return res.status(401).send(verify);
     }
     await Form.create({
@@ -107,6 +108,7 @@ app.post("/submit/:slug", async (req, res) => {
       path
     });
   } catch (e) {
+    console.log(e);
     return res.status(500).send(e);
   }
 });
