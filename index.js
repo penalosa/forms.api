@@ -98,7 +98,7 @@ app.post("/submit/:slug", async (req, res) => {
       }
     ).then(r => r.json());
     if (!verify.ok) {
-      return res.status(401);
+      return res.status(401).send(verify);
     }
     await Form.create({
       user: verify.user,
@@ -107,7 +107,7 @@ app.post("/submit/:slug", async (req, res) => {
       path
     });
   } catch (e) {
-    return res.status(500);
+    return res.status(500).send(e);
   }
 });
 
