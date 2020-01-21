@@ -54,7 +54,7 @@
       },
       "type": "select",
       "title": "Select show",
-      "source": "http://localhost:8047/mine"
+      "source": "https://shows.api.freshair.org.uk/mine"
     },
     "show_details": {
       "after": "show_exists",
@@ -94,7 +94,7 @@
       "type": "filter",
       "title": "Who else is involved?",
       "body": "List all involved presenters",
-      "source": "http://localhost:8007/list"
+      "source": "https://auth.api.freshair.org.uk/list"
     },
     "show_demo": {
       "logic": { "$exists": "show_people" },
@@ -113,7 +113,7 @@
       "type": "select",
       "title": "Category",
       "body": "Which category best describes your show?",
-      "source": "http://localhost:8047/categories"
+      "source": "https://shows.api.freshair.org.uk/categories"
     },
     "dance_availability": {
       "logic": {
