@@ -54,7 +54,7 @@ app.post("/upload", upload.single("upload"), async (req, res) => {
     Bucket: "freshair",
     Key: `upload/${name}`,
     ACL: "public-read",
-    ContentType: "audio/mpeg"
+    ContentType: req.file.mimetype
   };
   res.send(name);
   s3.putObject(params, (err, data) => {
