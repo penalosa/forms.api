@@ -15,7 +15,7 @@
       },
       "after": "info",
       "type": "option",
-      "title": "Are you a Freshair member?",
+      "title": "Have you paid for Freshair membership through EUSA?",
       "options": ["Yes", "No"]
     },
     "membership_bought": {
@@ -304,7 +304,7 @@
       ],
       "type": "last",
       "title": "Thank you for applying!",
-      "body": "We'll get back to you as soon as we can."
+      "body": "You'll find out if your show was successful on the 30th of January when the Broadcast Schedule is released. If you have any questions please email programming@freshair.org.uk"
     }
   }
 }
