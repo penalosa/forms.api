@@ -96,7 +96,8 @@ app.post("/submit/:slug", async (req, res) => {
           "X-Auth-Token": auth
         }
       }
-    ).then(r => r.json());
+    );
+    console.log(await verify.text());
     if (!verify.ok) {
       return res.status(401).send(verify);
     }
