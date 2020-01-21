@@ -29,8 +29,7 @@ const Form = mongoose.model(
 );
 
 mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/prod", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
+  useNewUrlParser: true
 });
 
 const s3 = new AWS.S3({
