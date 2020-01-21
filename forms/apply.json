@@ -86,7 +86,7 @@
       "prompt": "Click or drop PNG/JPEG here...",
       "body": "This will be shown on Freshair.org.uk to identify your show",
       "contentType": ["image/png", "image/jpeg"],
-      "url": "http://localhost:8764/upload"
+      "url": "https://forms.api.freshair.org.uk/upload"
     },
     "show_people": {
       "logic": { "$exists": "show_pic" },
@@ -103,7 +103,7 @@
       "title": "Upload your show demo",
       "prompt": "Click or drop MP3 here...",
       "contentType": ["audio/mpeg"],
-      "url": "http://localhost:8764/upload"
+      "url": "https://forms.api.freshair.org.uk/upload"
     },
     "show_category": {
       "logic": {
