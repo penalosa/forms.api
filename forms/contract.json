@@ -3,7 +3,7 @@
   "spec": {
     "Preamble": {
       "title": "Preamble",
-      "body": "Fresh Air is a lovely resource, so to keep it available and great, all presenters must carefully read, sign and adhere to these studio rules throughout their presenting time at the station. Give it all a read through and familiarize yourself with the rules, their rationale, and how we enforce them. These rules are crucial for us etiquette-wise and for our relationship with EUSA. Violation of these rules could significantly hurt this relationship and so the station.",
+      "body": "Fresh Air is a lovely resource, so to keep it available and great, all presenters must carefully read, sign and adhere to these studio rules throughout their presenting time at the station. Give it all a read through and familiarize yourself with the rules. their rationale, and how we enforce them. The rules are crucial for us etiquette-wise and in relation to being housed in and broadcasting to EUSA venues. Violation of these rules could significantly hurt this relationship and the station as a whole by effect.",
       "type": "first",
       "continue": "I understand",
       "after": "",
@@ -105,45 +105,14 @@
       "after": "Community",
       "logic": { "$exists": "Community" }
     },
-    "Member_Content_Licensing": {
-      "title": "Member Content Licensing",
-      "body": "Everyone at Fresh Air collaborates to create content for the station.",
-      "type": "information",
-      "continue": "I understand",
-      "after": "Disruption",
-      "logic": { "$exists": "Disruption" }
-    },
-    "What_this_section_means_for_you": {
-      "title": "What this section means for you",
-      "body": "You grant Freshair the right to use your content for (among other things) promoting and advertising the station, which we will do occasionally. Any content you create using Freshair's support must also be first published through one of our platforms, before publishing on other platforms (e.g. Mixcloud).",
-      "type": "information",
-      "continue": "I understand",
-      "after": "Member_Content_Licensing",
-      "logic": { "$exists": "Member_Content_Licensing" }
-    },
-    "Content_License": {
-      "title": "Content License",
-      "body": "You hereby grant to Fresh Air a non-exclusive, fully paid and royalty-free, transferable, sub-licensable, worldwide license to use the Content you create by use of the station’s facilities, name, or resources. This means that Freshair reserves the ability to use member-created content to (among other things) promote and advertise the station, which we will do occasionally.",
-      "type": "information",
-      "continue": "I understand",
-      "after": "What_this_section_means_for_you",
-      "logic": { "$exists": "What_this_section_means_for_you" }
-    },
-    "Publishing": {
-      "title": "Publishing",
-      "body": "Members are prohibited from using the station’s name, facilities, or resources solely for personal use, as actors independent from the station, or to make content to publish solely for other media platforms. Content created using the station’s facilities, name, or resources must be credited to the station. Content must broadcast or published on a Freshair platform before being broadcast or published through a personal medium.",
-      "type": "information",
-      "continue": "I understand",
-      "after": "Content_License",
-      "logic": { "$exists": "Content_License" }
-    },
+
     "Show_Content_Quality": {
       "title": "Show Content Quality",
       "body": "Sources for music include files brought in on USB, or transferred somehow to the studio computer to be played through the mAirList program. You can never use YouTube, Spotify or similar platforms like Apple Music as a music source for your show.",
       "type": "information",
       "continue": "I understand",
-      "after": "Publishing",
-      "logic": { "$exists": "Publishing" }
+      "after": "Disruption",
+      "logic": { "$exists": "Disruption" }
     },
     "Major_Rules": {
       "title": "Major Rules",
