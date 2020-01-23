@@ -105,26 +105,29 @@
       "contentType": ["audio/mpeg"],
       "url": "https://forms.api.freshair.org.uk/upload"
     },
-    "presenter_type": {
+   
+    "producer_type": {
       "logic": {
-        "$any": ["show_demo", "show_slug"]
+        "$exists": ["show_demo", "show_slug"]
       },
       "after": ["show_demo", "show_slug"],
-      "type": "select",
-      "title": "Category",
-      "body": "Which category best describes your show?",
-      "source": "https://shows.api.freshair.org.uk/categories"
-    },
-    "show_category": {
-      "logic": {
-        "$exists": "presenter_type"
-      },
-      "after": "presenter_type",
       "type": "select",
       "title": "Producer preference",
       "body": "What type of producer would you like?",
       "source": "https://shows.api.freshair.org.uk/presenter_type"
     },
+
+    "show_category": {
+      "logic": {
+        "$exists": "producer_type"
+      },
+      "after": "producer_type",
+      "type": "select",
+      "title": "Category",
+      "body": "Which category best describes your show?",
+      "source": "https://shows.api.freshair.org.uk/categories"
+    },
+
     "dance_availability": {
       "logic": {
         "$equal": {
