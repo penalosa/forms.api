@@ -102,7 +102,7 @@
       "type": "upload",
       "title": "Upload your show demo",
       "prompt": "Click or drop MP3 here...",
-      "contentType": ["audio/mpeg"],
+      "contentType": ["audio/mpeg", "audio/mp3"],
       "url": "https://forms.api.freshair.org.uk/upload"
     },
    
