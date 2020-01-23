@@ -108,7 +108,7 @@
    
     "producer_type": {
       "logic": {
-        "$exists": ["show_demo", "show_slug"]
+        "$any": ["show_demo", "show_slug"]
       },
       "after": ["show_demo", "show_slug"],
       "type": "select",
