@@ -52,9 +52,9 @@
           "show_exists": "Last Semester"
         }
       },
-      "type": "select",
+      "type": "filter",
       "title": "Select show",
-      "source": "https://shows.api.freshair.org.uk/mine"
+      "source": "https://shows.api.freshair.org.uk/all"
     },
     "show_details": {
       "after": "show_exists",
