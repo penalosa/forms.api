@@ -102,11 +102,12 @@ app.post("/submit/:slug", async (req, res) => {
       return res.status(401).send(verify);
     }
     await Form.create({
-      user: verify.user,
+      user: verify.slug,
       slug,
       data,
       path
     });
+    return res.sendStatus(200);
   } catch (e) {
     console.log(e);
     return res.status(500).send(e);
