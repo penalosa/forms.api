@@ -93,18 +93,17 @@ app.get("/results/:slug", async (req, res) => {
         "data",
         "path"
       ])
-
-      // .map(f => {
-      //   let data = {};
-      //   [...f.path].forEach(k => (data[k] = f.data[k]));
-      //   return {
-      //     user: f.user,
-      //     slug: f.slug,
-      //     createdAt: f.createdAt,
-      //     path: f.path,
-      //     data
-      //   };
-      // })
+      .map(f => {
+        let data = {};
+        [...f.path].forEach(k => (data[k] = f.data[k]));
+        return {
+          user: f.user,
+          slug: f.slug,
+          createdAt: f.createdAt,
+          path: f.path,
+          data
+        };
+      })
       // .map(async f => {
       //   if (Array.isArray(f.data.show_slug)) {
       //     f.data.show_slug = f.data.show_slug[0];
