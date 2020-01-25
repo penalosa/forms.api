@@ -10,7 +10,13 @@ const app = express();
 app.use(cors());
 const port = process.env.PORT || 8764;
 const spacesEndpoint = new AWS.Endpoint("nyc3.digitaloceanspaces.com");
-
+const GhostAdminAPI = require("@tryghost/admin-api");
+const ghostToken = process.env.GHOST_TOKEN;
+const Admin = new GhostAdminAPI({
+  url: "https://content.freshair.org.uk",
+  key: ghostToken,
+  version: "v3"
+});
 const Form = mongoose.model(
   `Form`,
   new mongoose.Schema(
@@ -76,9 +82,80 @@ app.get("/spec/:slug", async (req, res) => {
     return res.status(500);
   }
 });
-app.get("/list", async (req, res) => {
+
+app.get("/results/:slug", async (req, res) => {
   try {
-    return res.json(await Form.find({}, ["slug", "createdAt", "data", "path"]));
+    return res.json(
+      await Promise.all(
+        [
+          ...(await Form.find({ slug: req.params.slug }, [
+            "slug",
+            "createdAt",
+            "user",
+            "data",
+            "path"
+          ]))
+        ]
+          .map(f => {
+            console.log(f);
+
+            let data = {};
+            [...f.path].forEach(k => (data[k] = f.data[k]));
+            return {
+              user: f.user,
+              slug: f.slug,
+              createdAt: f.createdAt,
+              path: f.path,
+              data
+            };
+          })
+          .map(async f => {
+            if (f.data.show_slug) {
+              try {
+                let show = await Admin.posts.read({
+                  slug: f.data.show_slug
+                });
+                f.data.show = {
+                  slug: show.slug,
+                  name: show.title,
+                  hosts: show.authors.map(a => ({
+                    slug: a.slug,
+                    pic: a.profile_image,
+                    name: a.name
+                  })),
+                  description: show.html,
+                  demo: "",
+                  pic: show.feature_image
+                };
+              } catch (e) {
+                console.error(e);
+              }
+            } else {
+              f.data.show = {
+                name: f.data.show_details.name,
+                hosts: await Promise.all(
+                  [...new Set([f.user, ...f.data.show_people])]
+                    .filter(u => u)
+                    .map(async s => {
+                      let u = await Admin.users.read({ slug: s });
+                      return {
+                        slug: u.slug,
+                        pic: u.profile_image.startsWith("http")
+                          ? u.profile_image
+                          : `https://cdn.freshair.dev/upload/${u.profile_image}`,
+                        name: u.name
+                      };
+                    })
+                ),
+                description: f.data.show_details.description,
+                demo: `https://cdn.freshair.dev/upload/${f.data.show_demo}`,
+                pic: `https://cdn.freshair.dev/upload/${f.data.show_pic}`
+              };
+            }
+            return f;
+          })
+      )
+    );
   } catch (e) {
     return res.status(500);
   }
