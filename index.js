@@ -83,7 +83,7 @@ app.get("/spec/:slug", async (req, res) => {
   }
 });
 
-app.get("/results/apply/:format", async (req, res) => {
+app.get("/results/apply", async (req, res) => {
   try {
     let ret = await Promise.all(
       (
@@ -162,12 +162,7 @@ app.get("/results/apply/:format", async (req, res) => {
           return f;
         })
     );
-    if (req.params.format == "json") {
-      return res.json(ret);
-    } else {
-      console.log(ret);
-      return res.send(JSON.stringify(ret));
-    }
+    return res.json(ret);
   } catch (e) {
     return res.status(500).send(e);
   }
