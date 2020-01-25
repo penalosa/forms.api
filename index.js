@@ -96,8 +96,6 @@ app.get("/results/:slug", async (req, res) => {
         ]))
       ]
         .map(f => {
-          console.log(f);
-
           let data = {};
           [...f.path].forEach(k => (data[k] = f.data[k]));
           return {
