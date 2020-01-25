@@ -133,20 +133,19 @@ app.get("/results/:slug", async (req, res) => {
           } else {
             f.data.show = {
               name: f.data.show_details.name,
-              hosts: await Promise.all(
-                [...new Set([f.user, ...f.data.show_people])]
-                  .filter(u => u)
-                  .map(async s => {
-                    let u = await Admin.users.read({ slug: s });
-                    return {
-                      slug: u.slug,
-                      pic: u.profile_image.startsWith("http")
-                        ? u.profile_image
-                        : `https://cdn.freshair.dev/upload/${u.profile_image}`,
-                      name: u.name
-                    };
-                  })
-              ),
+              hosts: [...new Set([f.user, ...f.data.show_people])],
+              //     .filter(u => u)
+              //     .map(async s => {
+              //       let u = await Admin.users.read({ slug: s });
+              //       return {
+              //         slug: u.slug,
+              //         pic: u.profile_image.startsWith("http")
+              //           ? u.profile_image
+              //           : `https://cdn.freshair.dev/upload/${u.profile_image}`,
+              //         name: u.name
+              //       };
+              //     })
+              // ),
               description: f.data.show_details.description,
               demo: `https://cdn.freshair.dev/upload/${f.data.show_demo}`,
               pic: `https://cdn.freshair.dev/upload/${f.data.show_pic}`
