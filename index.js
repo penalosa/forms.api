@@ -107,7 +107,6 @@ app.get("/results/apply", async (req, res) => {
           };
         })
         .map(async f => {
-          return f;
           if (Array.isArray(f.data.show_slug)) {
             f.data.show_slug = f.data.show_slug[0];
           }
@@ -131,7 +130,7 @@ app.get("/results/apply", async (req, res) => {
             } catch (e) {
               console.error(e);
             }
-          } else {
+          } else if (f.data.show_details) {
             f.data.show = {
               name: f.data.show_details.name,
               hosts: await Promise.all(
