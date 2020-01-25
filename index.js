@@ -87,7 +87,7 @@ app.get("/results/apply", async (req, res) => {
   try {
     let ret = await Promise.all(
       (
-        await Form.find({ slug: req.params.slug }, [
+        await Form.find({ slug: "apply" }, [
           "slug",
           "createdAt",
           "user",
@@ -107,7 +107,6 @@ app.get("/results/apply", async (req, res) => {
           };
         })
         .map(async f => {
-          return f;
           if (Array.isArray(f.data.show_slug)) {
             f.data.show_slug = f.data.show_slug[0];
           }
@@ -163,7 +162,6 @@ app.get("/results/apply", async (req, res) => {
           return f;
         })
     );
-    console.log(ret);
     return res.json(ret);
   } catch (e) {
     return res.status(500).send(e);
