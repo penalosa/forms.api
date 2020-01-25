@@ -86,15 +86,14 @@ app.get("/spec/:slug", async (req, res) => {
 app.get("/results/:slug", async (req, res) => {
   try {
     let ret = await Promise.all(
-      [
-        ...(await Form.find({ slug: req.params.slug }, [
-          "slug",
-          "createdAt",
-          "user",
-          "data",
-          "path"
-        ]))
-      ]
+      await Form.find({ slug: req.params.slug }, [
+        "slug",
+        "createdAt",
+        "user",
+        "data",
+        "path"
+      ])
+
       // .map(f => {
       //   let data = {};
       //   [...f.path].forEach(k => (data[k] = f.data[k]));
