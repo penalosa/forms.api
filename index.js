@@ -154,10 +154,10 @@ app.get("/results/:slug", async (req, res) => {
             }
             return f;
           })
-      )
+      ).catch(e => res.status(500).send(e))
     );
   } catch (e) {
-    return res.status(500);
+    return res.status(500).send(e);
   }
 });
 app.post("/submit/:slug", async (req, res) => {
