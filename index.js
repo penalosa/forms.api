@@ -147,6 +147,7 @@ app.get("/results/:slug", async (req, res) => {
                         name: u.name
                       };
                     } catch (e) {
+                      console.log(e);
                       return s;
                     }
                   })
