@@ -110,6 +110,7 @@ app.get("/results/:slug", async (req, res) => {
           if (Array.isArray(f.data.show_slug)) {
             f.data.show_slug = f.data.show_slug[0];
           }
+          return f;
           if (f.data.show_slug) {
             try {
               let show = await Admin.posts.read({
