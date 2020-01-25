@@ -94,65 +94,66 @@ app.get("/results/:slug", async (req, res) => {
           "data",
           "path"
         ])
-      ).map(f => {
-        let data = {};
-        [...f.path].forEach(k => (data[k] = f.data[k]));
-        return {
-          user: f.user,
-          slug: f.slug,
-          createdAt: f.createdAt,
-          path: f.path,
-          data
-        };
-      })
-      // .map(async f => {
-      //   if (Array.isArray(f.data.show_slug)) {
-      //     f.data.show_slug = f.data.show_slug[0];
-      //   }
-      //   if (f.data.show_slug) {
-      //     try {
-      //       let show = await Admin.posts.read({
-      //         slug: f.data.show_slug
-      //       });
-      //       f.data.show = {
-      //         slug: show.slug,
-      //         name: show.title,
-      //         hosts: show.authors.map(a => ({
-      //           slug: a.slug,
-      //           pic: a.profile_image,
-      //           name: a.name
-      //         })),
-      //         description: show.html,
-      //         demo: "",
-      //         pic: show.feature_image
-      //       };
-      //     } catch (e) {
-      //       console.error(e);
-      //     }
-      //   } else {
-      //     f.data.show = {
-      //       name: f.data.show_details.name,
-      //       hosts: await Promise.all(
-      //         [...new Set([f.user, ...f.data.show_people])]
-      //           .filter(u => u)
-      //           .map(async s => {
-      //             let u = await Admin.users.read({ slug: s });
-      //             return {
-      //               slug: u.slug,
-      //               pic: u.profile_image.startsWith("http")
-      //                 ? u.profile_image
-      //                 : `https://cdn.freshair.dev/upload/${u.profile_image}`,
-      //               name: u.name
-      //             };
-      //           })
-      //       ),
-      //       description: f.data.show_details.description,
-      //       demo: `https://cdn.freshair.dev/upload/${f.data.show_demo}`,
-      //       pic: `https://cdn.freshair.dev/upload/${f.data.show_pic}`
-      //     };
-      //   }
-      //   return f;
-      // })
+      )
+        .map(f => {
+          let data = {};
+          [...f.path].forEach(k => (data[k] = f.data[k]));
+          return {
+            user: f.user,
+            slug: f.slug,
+            createdAt: f.createdAt,
+            path: f.path,
+            data
+          };
+        })
+        .map(async f => {
+          if (Array.isArray(f.data.show_slug)) {
+            f.data.show_slug = f.data.show_slug[0];
+          }
+          if (f.data.show_slug) {
+            try {
+              let show = await Admin.posts.read({
+                slug: f.data.show_slug
+              });
+              f.data.show = {
+                slug: show.slug,
+                name: show.title,
+                hosts: show.authors.map(a => ({
+                  slug: a.slug,
+                  pic: a.profile_image,
+                  name: a.name
+                })),
+                description: show.html,
+                demo: "",
+                pic: show.feature_image
+              };
+            } catch (e) {
+              console.error(e);
+            }
+          } else {
+            f.data.show = {
+              name: f.data.show_details.name,
+              hosts: await Promise.all(
+                [...new Set([f.user, ...f.data.show_people])]
+                  .filter(u => u)
+                  .map(async s => {
+                    let u = await Admin.users.read({ slug: s });
+                    return {
+                      slug: u.slug,
+                      pic: u.profile_image.startsWith("http")
+                        ? u.profile_image
+                        : `https://cdn.freshair.dev/upload/${u.profile_image}`,
+                      name: u.name
+                    };
+                  })
+              ),
+              description: f.data.show_details.description,
+              demo: `https://cdn.freshair.dev/upload/${f.data.show_demo}`,
+              pic: `https://cdn.freshair.dev/upload/${f.data.show_pic}`
+            };
+          }
+          return f;
+        })
     );
     return res.json(ret);
   } catch (e) {
