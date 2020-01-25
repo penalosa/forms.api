@@ -130,9 +130,6 @@ app.get("/results/:slug", async (req, res) => {
             } catch (e) {
               console.error(e);
             }
-          }
-          return f;
-          if (true) {
           } else {
             f.data.show = {
               name: f.data.show_details.name,
