@@ -141,9 +141,11 @@ app.get("/results/:slug", async (req, res) => {
                       let u = await Admin.users.read({ slug: s });
                       return {
                         slug: u.slug,
-                        pic: u.profile_image.startsWith("http")
-                          ? u.profile_image
-                          : `https://cdn.freshair.dev/upload/${u.profile_image}`,
+                        pic: u.profile_image
+                          ? u.profile_image.startsWith("http")
+                            ? u.profile_image
+                            : `https://cdn.freshair.dev/upload/${u.profile_image}`
+                          : "",
                         name: u.name
                       };
                     } catch (e) {
