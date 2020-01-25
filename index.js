@@ -162,6 +162,7 @@ app.get("/results/apply", async (req, res) => {
           return f;
         })
     );
+    console.log(ret);
     return res.json(ret);
   } catch (e) {
     return res.status(500).send(e);
