@@ -107,6 +107,7 @@ app.get("/results/apply", async (req, res) => {
           };
         })
         .map(async f => {
+          return f;
           if (Array.isArray(f.data.show_slug)) {
             f.data.show_slug = f.data.show_slug[0];
           }
