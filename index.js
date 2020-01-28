@@ -83,6 +83,16 @@ app.get("/spec/:slug", async (req, res) => {
   }
 });
 
+app.get("/results/contract", async (req, res) => {
+  try {
+    let ret = await Form.find({ slug: "contract" }, ["slug", "user"]);
+    return res.json(ret);
+  } catch (e) {
+    console.error(e);
+    return res.sendStatus(500);
+  }
+});
+
 app.get("/results/apply", async (req, res) => {
   try {
     let ret = await Promise.all(
