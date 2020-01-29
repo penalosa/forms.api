@@ -134,7 +134,7 @@ app.get("/results/apply", async (req, res) => {
                   pic: a.profile_image,
                   name: a.name
                 })),
-                description: show.html,
+                description: show.excerpt,
                 demo: "",
                 pic: show.feature_image
               };
