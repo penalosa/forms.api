@@ -125,6 +125,7 @@ app.get("/results/apply", async (req, res) => {
               let show = await Admin.posts.read({
                 slug: f.data.show_slug
               });
+              console.log(show);
               f.data.show = {
                 slug: show.slug,
                 name: show.title,
