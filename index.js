@@ -130,6 +130,7 @@ app.get("/results/apply", async (req, res) => {
                 slug: show.slug,
                 name: show.title,
                 hosts: show.authors.map(a => ({
+                  email: a.email,
                   slug: a.slug,
                   pic: a.profile_image,
                   name: a.name
