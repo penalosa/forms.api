@@ -153,6 +153,7 @@ app.get("/results/apply", async (req, res) => {
                       let u = await Admin.users.read({ slug: s });
                       return {
                         slug: u.slug,
+                        email: u.email,
                         pic: u.profile_image
                           ? u.profile_image.startsWith("http")
                             ? u.profile_image
