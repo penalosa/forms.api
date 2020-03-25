@@ -6,40 +6,15 @@
       "logic": "start",
       "type": "first",
       "title": "Hi!",
-      "body": "Want to be more involved in the running of Freshair? You're in the right place! Fill out this form to stand for a committee position for 2020/2021",
+      "body": "Do you want to be more involved in the running of Freshair? You're in the right place! Fill out this form to stand for a committee position for 2020/2021",
       "continue": "I'm ready"
     },
-    "member": {
+
+    "position": {
       "logic": {
         "$exists": "info"
       },
       "after": "info",
-      "type": "option",
-      "title": "Have you paid for Freshair membership through EUSA?",
-      "options": ["Yes", "No"]
-    },
-    "membership_bought": {
-      "logic": {
-        "$equal": {
-          "member": "No"
-        }
-      },
-      "after": "member",
-      "type": "information",
-      "title": "Buy Membership",
-      "body": "You must be a paid member to stand for committee. Please go to the FreshAir page on the EUSA website to purchase membership before continuing.",
-      "continue": "I've bought membership"
-    },
-    "position": {
-      "after": ["member", "membership_bought"],
-      "logic": {
-        "$any": {
-          "$equal": {
-            "member": "Yes"
-          },
-          "$exists": "membership_bought"
-        }
-      },
       "type": "select",
       "title": "Which position do you want to stand for?",
       "body": "Have a read through the position descriptions at stand.freshair.org.uk to see what each role entails.",
