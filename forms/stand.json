@@ -1,0 +1,143 @@
+{
+  "name": "Standing for committee",
+  "spec": {
+    "info": {
+      "after": "",
+      "logic": "start",
+      "type": "first",
+      "title": "Hi!",
+      "body": "Want to be more involved in the running of Freshair? You're in the right place! Fill out this form to stand for a committee position for 2020/2021",
+      "continue": "I'm ready"
+    },
+    "member": {
+      "logic": {
+        "$exists": "info"
+      },
+      "after": "info",
+      "type": "option",
+      "title": "Have you paid for Freshair membership through EUSA?",
+      "options": ["Yes", "No"]
+    },
+    "membership_bought": {
+      "logic": {
+        "$equal": {
+          "member": "No"
+        }
+      },
+      "after": "member",
+      "type": "information",
+      "title": "Buy Membership",
+      "body": "You must be a paid member to stand for committee. Please go to the FreshAir page on the EUSA website to purchase membership before continuing.",
+      "continue": "I've bought membership"
+    },
+    "position": {
+      "after": ["member", "membership_bought"],
+      "logic": {
+        "$any": {
+          "$equal": {
+            "member": "Yes"
+          },
+          "$exists": "membership_bought"
+        }
+      },
+      "type": "filter",
+      "title": "Which position do you want to stand for?",
+      "body": "Have a read through the position descriptions at stand.freshair.org.uk to see what each role entails.",
+      "data": [
+        {
+          "name": "Secretary",
+          "slug": "secretary",
+          "pic": ""
+        },
+        {
+          "name": "Treasurer",
+          "slug": "treasurer",
+          "pic": ""
+        },
+        {
+          "name": "Programming Manager",
+          "slug": "programming",
+          "pic": ""
+        },
+        {
+          "name": "Audio Imaging Manager",
+          "slug": "audio",
+          "pic": ""
+        },
+        {
+          "name": "Production Manager",
+          "slug": "production",
+          "pic": ""
+        },
+        {
+          "name": "Events Manager",
+          "slug": "events",
+          "pic": ""
+        },
+        {
+          "name": "Outreach Manager",
+          "slug": "outreach",
+          "pic": ""
+        },
+        {
+          "name": "Social Media Manager",
+          "slug": "social",
+          "pic": ""
+        },
+        {
+          "name": "Design Team Manager",
+          "slug": "design",
+          "pic": ""
+        },
+        {
+          "name": "Head of Music",
+          "slug": "music",
+          "pic": ""
+        },
+        {
+          "name": "Music Team Manager",
+          "slug": "musicmanager",
+          "pic": ""
+        },
+        {
+          "name": "Head of News",
+          "slug": "news",
+          "pic": ""
+        },
+        {
+          "name": "Head of Sport",
+          "slug": "sport",
+          "pic": ""
+        },
+        {
+          "name": "Head of Arts",
+          "slug": "arts",
+          "pic": ""
+        }
+      ]
+    },
+
+    "manifesto": {
+      "logic": { "$exists": "position" },
+      "after": "position",
+      "type": "upload",
+      "title": "Upload your manifesto as a Word document or PDF",
+      "prompt": "Click or drop file here...",
+      "contentType": [
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/pdf"
+      ],
+      "url": "https://forms.api.freshair.org.uk/upload"
+    },
+
+    "finished": {
+      "logic": { "$exists": "manifesto" },
+
+      "after": ["manifesto"],
+      "type": "last",
+      "title": "Thank you!",
+      "body": "You should get an email within a day confirming your details"
+    }
+  }
+}

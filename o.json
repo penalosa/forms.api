@@ -1,0 +1,5452 @@
+[
+  {
+    "user": "elizabeth",
+    "slug": "apply",
+    "createdAt": "2020-01-23T13:30:12.280Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "The Feminine Mystique",
+        "description": "Listening to 'indie' music from all eras: the music of the outsiders, the dissenters, the dreamers of dreams."
+      },
+      "show_pic": "22373ab8ebcf24a55bd863253ec02350",
+      "show_people": ["elizabeth"],
+      "show_demo": "3e9e3750a87cfe09a9d7c0ca18eb98cc",
+      "producer_type": "technical-help",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["11pm", 104],
+        ["11pm", 103],
+        ["11pm", 102],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["1pm", 29],
+        ["12pm", 22],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["3pm", 45],
+        ["12pm", 23],
+        ["12pm", 24],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["7pm", 73],
+        ["8pm", 80],
+        ["9pm", 87],
+        ["10pm", 94],
+        ["11pm", 101],
+        ["1pm", 33],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["4pm", 54],
+        ["5pm", 61],
+        ["6pm", 68],
+        ["7pm", 75],
+        ["8pm", 82],
+        ["9pm", 89],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["2pm", 41],
+        ["3pm", 48],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["10pm", 97],
+        ["10pm", 96],
+        ["12pm", 26]
+      ],
+      "show": {
+        "name": "The Feminine Mystique",
+        "hosts": [
+          {
+            "slug": "elizabeth",
+            "email": "s1869335@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/9974bde3ad1d3e2555ff4f0d538b0e53",
+            "name": "Elizabeth Lund"
+          }
+        ],
+        "description": "Listening to 'indie' music from all eras: the music of the outsiders, the dissenters, the dreamers of dreams.",
+        "demo": "https://cdn.freshair.dev/upload/3e9e3750a87cfe09a9d7c0ca18eb98cc",
+        "pic": "https://cdn.freshair.dev/upload/22373ab8ebcf24a55bd863253ec02350"
+      }
+    }
+  },
+  {
+    "user": "backbench",
+    "slug": "apply",
+    "createdAt": "2020-01-23T13:44:04.563Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "politics_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "The Backbench",
+        "description": "We are the official show of the Edinburgh Political Union, hoping to discuss all things political with a relaxed attitude. We go through all the major events of the previous week, as well as looking to the future political landscape."
+      },
+      "show_pic": "82d80e3d7bf8d88bb56474c7756b4db6",
+      "show_people": [],
+      "show_demo": "ece390fd266323700842e223c685326e",
+      "producer_type": "no-preference",
+      "show_category": "politics",
+      "politics_availability": [
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45]
+      ],
+      "show": {
+        "name": "The Backbench",
+        "hosts": [
+          {
+            "slug": "backbench",
+            "email": "jeremykingdomhaw@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/82d80e3d7bf8d88bb56474c7756b4db6",
+            "name": "The Backbench"
+          }
+        ],
+        "description": "We are the official show of the Edinburgh Political Union, hoping to discuss all things political with a relaxed attitude. We go through all the major events of the previous week, as well as looking to the future political landscape.",
+        "demo": "https://cdn.freshair.dev/upload/ece390fd266323700842e223c685326e",
+        "pic": "https://cdn.freshair.dev/upload/82d80e3d7bf8d88bb56474c7756b4db6"
+      }
+    }
+  },
+  {
+    "user": "michel",
+    "slug": "apply",
+    "createdAt": "2020-01-23T15:28:18.801Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "pop-tasting",
+      "producer_type": "technical-help",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["11am", 18],
+        ["12pm", 25],
+        ["1pm", 32],
+        ["2pm", 39],
+        ["3pm", 46],
+        ["4pm", 53],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43]
+      ],
+      "show": {
+        "slug": "pop-tasting",
+        "name": "POP TASTING",
+        "hosts": [
+          {
+            "email": "michelmitri@icloud.com",
+            "slug": "michel",
+            "pic": "https://content.freshair.org.uk/content/images/Hz6ZELK6s.jpg",
+            "name": "Michel Mitri"
+          },
+          {
+            "email": "rachellinnn@gmail.com",
+            "slug": "rachel",
+            "pic": "https://content.freshair.org.uk/content/images/JFRUhATdiq.jpg",
+            "name": "Rachel Lin"
+          }
+        ],
+        "description": "POP TASTING is a weekly music and pop culture show. Tune in to hear me play my\nfavourite new releases & timeless bops, and talk about celebrity news, artists\non the rise, and more!\nThe show mainly includes Pop, Alternative, Hip-Hop/Rap and R&B music.\n\nPOP TASTING is live on FreshAir.org.uk every Tuesday at 5PM.\n\nListen to some of the best tracks played on the show on Spotify and Apple Music: \n\nSpotify: \nhttps://open.spotify.com/playlist/4P7qjV9WDpRAz5NgiuSJsn?si=yxWeAjA_Qa-7EJ7mzUes5A\n\nApple Mus",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/POP-TASTING.jpg"
+      }
+    }
+  },
+  {
+    "user": "rob-bazaral",
+    "slug": "apply",
+    "createdAt": "2020-01-23T16:15:05.651Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Decade Unwrapped",
+        "description": "I go down my top 100 songs of the 2010s, analyzing them and explaining their impact and why I love them."
+      },
+      "show_pic": "78a75493873bb35b3be35ef5f8104f00",
+      "show_people": [],
+      "show_demo": "103534e0737a327cdcfeabb1ac28ac7c",
+      "producer_type": "no-preference",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["7pm", 76],
+        ["7pm", 75],
+        ["6pm", 69],
+        ["6pm", 68],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["4pm", 55],
+        ["4pm", 54],
+        ["3pm", 48],
+        ["3pm", 47]
+      ],
+      "show": {
+        "name": "Decade Unwrapped",
+        "hosts": [
+          {
+            "slug": "rob-bazaral",
+            "email": "robertbazaral@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/55cc4c9014d1f04b5b0bfe21793ff1e2",
+            "name": "Rob Bazaral"
+          }
+        ],
+        "description": "I go down my top 100 songs of the 2010s, analyzing them and explaining their impact and why I love them.",
+        "demo": "https://cdn.freshair.dev/upload/103534e0737a327cdcfeabb1ac28ac7c",
+        "pic": "https://cdn.freshair.dev/upload/78a75493873bb35b3be35ef5f8104f00"
+      }
+    }
+  },
+  {
+    "user": "paul",
+    "slug": "apply",
+    "createdAt": "2020-01-23T16:22:25.438Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "dance_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "REDLINING",
+        "description": "Playing the best of bass music across Drum & Bass, Dubstep, House and more, with track selects and a weekly DJ mix."
+      },
+      "show_pic": "a744598117fc2c26bb83c277f4e1117d",
+      "show_people": [],
+      "show_demo": "bc94eeb7875bfde1f65e77cb689c36aa",
+      "producer_type": "technical-help",
+      "show_category": "dance-music",
+      "dance_availability": [
+        ["8pm", 4],
+        ["8pm", 3],
+        ["8pm", 0],
+        ["8pm", 1],
+        ["8pm", 2],
+        ["10pm", 18],
+        ["9pm", 11],
+        ["10pm", 17],
+        ["9pm", 10],
+        ["10pm", 16],
+        ["9pm", 9],
+        ["10pm", 15],
+        ["9pm", 8],
+        ["10pm", 14],
+        ["9pm", 7]
+      ],
+      "show": {
+        "name": "REDLINING",
+        "hosts": [
+          {
+            "slug": "paul",
+            "email": "paul@clavier.uk",
+            "pic": "https://content.freshair.org.uk/content/images/2020/01/00100sPORTRAIT_00100_BURST20200106151259694_COVER.jpg",
+            "name": "Paul Clavier"
+          }
+        ],
+        "description": "Playing the best of bass music across Drum & Bass, Dubstep, House and more, with track selects and a weekly DJ mix.",
+        "demo": "https://cdn.freshair.dev/upload/bc94eeb7875bfde1f65e77cb689c36aa",
+        "pic": "https://cdn.freshair.dev/upload/a744598117fc2c26bb83c277f4e1117d"
+      }
+    }
+  },
+  {
+    "user": "jacob",
+    "slug": "apply",
+    "createdAt": "2020-01-23T18:57:00.014Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Jacob's Ladder",
+        "description": "Each show, I'll take a selection of songs from a particular genre, artist, mood or theme and play them in order of obscurity and accessibility. I'll provide commentary and information about each track, occasionally have guests share some of their favourites as well!"
+      },
+      "show_pic": "c78a2fc7e0b735cf21753a1953f98bed",
+      "show_people": ["jacob"],
+      "show_demo": "28f53cd4ec0e5c592a0f8e29dad9d3e8",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["11pm", 104],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11pm", 103],
+        ["10pm", 96],
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["11pm", 99],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["8pm", 77],
+        ["7pm", 70]
+      ],
+      "show": {
+        "name": "Jacob's Ladder",
+        "hosts": [
+          {
+            "slug": "jacob",
+            "email": "s1832404@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/c78a2fc7e0b735cf21753a1953f98bed",
+            "name": "Jacob Knowland"
+          }
+        ],
+        "description": "Each show, I'll take a selection of songs from a particular genre, artist, mood or theme and play them in order of obscurity and accessibility. I'll provide commentary and information about each track, occasionally have guests share some of their favourites as well!",
+        "demo": "https://cdn.freshair.dev/upload/28f53cd4ec0e5c592a0f8e29dad9d3e8",
+        "pic": "https://cdn.freshair.dev/upload/c78a2fc7e0b735cf21753a1953f98bed"
+      }
+    }
+  },
+  {
+    "user": "jasna",
+    "slug": "apply",
+    "createdAt": "2020-01-23T20:44:20.496Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "The Salmon of Themes",
+        "description": "Every week, I (the salmon) play music on a different theme."
+      },
+      "show_pic": "d1406263448365be8db9ad7f1a54f860",
+      "show_people": ["jasna"],
+      "show_demo": "39c455a4a79cc96a10bedcb0eaee6314",
+      "producer_type": "no-preference",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["5pm", 62],
+        ["4pm", 55],
+        ["11am", 20],
+        ["10am", 13],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["10am", 12],
+        ["6pm", 67],
+        ["7pm", 74],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["1pm", 32],
+        ["1pm", 31],
+        ["1pm", 31],
+        ["2pm", 38],
+        ["3pm", 45],
+        ["4pm", 52],
+        ["5pm", 59],
+        ["5pm", 60],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["10am", 11],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["10am", 9],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56]
+      ],
+      "show": {
+        "name": "The Salmon of Themes",
+        "hosts": [
+          {
+            "slug": "jasna",
+            "email": "jasna_mason@yahoo.co.uk",
+            "pic": "https://content.freshair.org.uk/content/images/1jqSq7G_kW.jpg",
+            "name": "Jasna Deas Mason"
+          }
+        ],
+        "description": "Every week, I (the salmon) play music on a different theme.",
+        "demo": "https://cdn.freshair.dev/upload/39c455a4a79cc96a10bedcb0eaee6314",
+        "pic": "https://cdn.freshair.dev/upload/d1406263448365be8db9ad7f1a54f860"
+      }
+    }
+  },
+  {
+    "user": "benji",
+    "slug": "apply",
+    "createdAt": "2020-01-23T21:56:45.688Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "EDI-Live!",
+        "description": "My show is everything to do with the arts; that means music, film, theatre and much much more! Topics vary from week to week filled with interesting facts, case studies, events happening in Edinburgh and topped off with some of my favourite tracks inbetween! I talk about new trends within the arts, things which interest me and my art. i.e. ideas of nostaliga within film, masculinity within the arts and 'should celebs have political authority?' \nI have experience working for Radio Jackie, a SW London FM radio station assisting producers, presenters and reading the travel/news bulletin so I would like to have my own show to show my skills. I hope you consider me for a show!\nThe essay should evidence an understanding of what a director does and how the director’s idea is developed for a drama film. "
+      },
+      "show_pic": "0b48243a87c266c973be1ee934fd60e3",
+      "show_people": ["benji"],
+      "show_demo": "cb3e60d55185739e748d6191d275d6c0",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["2pm", 35]
+      ],
+      "show": {
+        "name": "EDI-Live!",
+        "hosts": [
+          {
+            "slug": "benji",
+            "email": "ben.sumrie@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/2265da154bd6d445cca334ee2fa4841d",
+            "name": "Benji Sumrie"
+          }
+        ],
+        "description": "My show is everything to do with the arts; that means music, film, theatre and much much more! Topics vary from week to week filled with interesting facts, case studies, events happening in Edinburgh and topped off with some of my favourite tracks inbetween! I talk about new trends within the arts, things which interest me and my art. i.e. ideas of nostaliga within film, masculinity within the arts and 'should celebs have political authority?' \nI have experience working for Radio Jackie, a SW London FM radio station assisting producers, presenters and reading the travel/news bulletin so I would like to have my own show to show my skills. I hope you consider me for a show!\nThe essay should evidence an understanding of what a director does and how the director’s idea is developed for a drama film. ",
+        "demo": "https://cdn.freshair.dev/upload/cb3e60d55185739e748d6191d275d6c0",
+        "pic": "https://cdn.freshair.dev/upload/0b48243a87c266c973be1ee934fd60e3"
+      }
+    }
+  },
+  {
+    "user": "harry",
+    "slug": "apply",
+    "createdAt": "2020-01-24T00:09:18.266Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "game_show_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Edinburgh Turntable ",
+        "description": "A laid back music game show where four complete strangers pick songs they love explaining why they think they're so great in a series of rounds, all for the final goal of getting a song of their choice played at the end of the show. "
+      },
+      "show_pic": "3fa093035ff5987974354049fc842be3",
+      "show_people": [],
+      "show_demo": "cd17a8cf21bb8147d0dcbd864e043551",
+      "producer_type": "no-preference",
+      "show_category": "game-show",
+      "game_show_availability": [
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["3pm", 48],
+        ["1pm", 34],
+        ["2pm", 41],
+        ["12pm", 27],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["12pm", 24],
+        ["1pm", 31],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["4pm", 50],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["3pm", 43],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["1pm", 28]
+      ],
+      "show": {
+        "name": "Edinburgh Turntable ",
+        "hosts": [
+          {
+            "slug": "harry",
+            "email": "harrymileswatson@yahoo.co.uk",
+            "pic": "https://content.freshair.org.uk/content/images/M71dlIgPl.jpg",
+            "name": "Harry Miles-Watson"
+          }
+        ],
+        "description": "A laid back music game show where four complete strangers pick songs they love explaining why they think they're so great in a series of rounds, all for the final goal of getting a song of their choice played at the end of the show. ",
+        "demo": "https://cdn.freshair.dev/upload/cd17a8cf21bb8147d0dcbd864e043551",
+        "pic": "https://cdn.freshair.dev/upload/3fa093035ff5987974354049fc842be3"
+      }
+    }
+  },
+  {
+    "user": "nico",
+    "slug": "apply",
+    "createdAt": "2020-01-24T10:10:15.858Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "glenn-sours-magical-hour",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["8pm", 83],
+        ["7pm", 76],
+        ["7pm", 76],
+        ["8pm", 83],
+        ["9pm", 90],
+        ["10pm", 97],
+        ["10pm", 94],
+        ["11pm", 101],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["11pm", 99],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["11pm", 104],
+        ["11pm", 104],
+        ["7pm", 70]
+      ],
+      "show": {
+        "slug": "glenn-sours-magical-hour",
+        "name": "Glenn Sour's Magical Hour",
+        "hosts": [
+          {
+            "email": "webmaster@freshair.org.uk",
+            "slug": "freshair-member",
+            "pic": null,
+            "name": "Freshair Member"
+          }
+        ],
+        "description": "Funk, Soul and Disco Show",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/11/glenn-sour1.jpg"
+      }
+    }
+  },
+  {
+    "user": "alfie_steiner",
+    "slug": "apply",
+    "createdAt": "2020-01-24T10:44:58.066Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "itsjustmychat",
+      "producer_type": "technical-help",
+      "show_category": "other",
+      "other_availability": [
+        ["11am", 15],
+        ["11am", 14]
+      ],
+      "show": {
+        "slug": "itsjustmychat",
+        "name": "Itsjustmychat",
+        "hosts": [
+          {
+            "email": "alfie.steiner@gmail.com",
+            "slug": "alfie_steiner",
+            "pic": "https://content.freshair.org.uk/content/images/i7PMQ2l_5.jpg",
+            "name": "Alfie Steiner"
+          }
+        ],
+        "description": "'Itsjustmychat' is  a talk show, hosted by me, Alfie Steiner aka\n'itsjustmymunch'. Whilst consistently featuring weekly culinary discussions,\neach week I will invite on a new guest, whose appearance will bring with it  a\ndistinct topic to talk about. Every Monday, 11:00AM, my guests & I will chat\naway, listening to some cracking tunes & helping you start your week in the\nright way.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/s4CQK0dddf.jpg"
+      }
+    }
+  },
+  {
+    "user": "andrew",
+    "slug": "apply",
+    "createdAt": "2020-01-24T11:08:21.869Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "weird-loud-both",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["11am", 14],
+        ["11pm", 104],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["11pm", 103],
+        ["10pm", 96],
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["11pm", 102],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["11pm", 101],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["2pm", 38],
+        ["1pm", 31],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["11pm", 99],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["11am", 14],
+        ["11am", 14],
+        ["11am", 14],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["11am", 14],
+        ["11am", 14]
+      ],
+      "show": {
+        "slug": "weird-loud-both",
+        "name": "WEIRD//LOUD//BOTH",
+        "hosts": [
+          {
+            "email": "s1887770@ed.ac.uk",
+            "slug": "andrew",
+            "pic": null,
+            "name": "Andrew Ricardo"
+          },
+          {
+            "email": "caitlin.wright456@gmail.com",
+            "slug": "caitlin",
+            "pic": "https://content.freshair.org.uk/content/images/2b-f4jrcp.jpg",
+            "name": "Caitlin Wright"
+          }
+        ],
+        "description": "Come along as we celebrate the unusual and the extreme in recorded music, i.e.\nI'll play you some weird and/or loud tracks and then talk about them in brief.\nIt's good music for your lunch hour; drop on by.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "andrew-linn",
+    "slug": "apply",
+    "createdAt": "2020-01-24T11:17:16.101Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "hip_hop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "The Soul Patch",
+        "description": "Rare & Exquisite Soul, Funk, and Classic Hip-hop. An extension of a show that I did at Bowdoin College during undergraduate study. May include occasional guests, show will also include brief explanatory tidbits of background information regarding some of the music played. The idea is fun energy entering the weekend on a Friday afternoon! (as was the slot at Bowdoin)"
+      },
+      "show_pic": "7e683867c2756c66e345edf40498dad1",
+      "show_people": ["andrew-linn"],
+      "show_demo": "e64d5fb8541cac562db665c3ebb621c4",
+      "producer_type": "no-preference",
+      "show_category": "hip-hop-r-b-music",
+      "hip_hop_availability": [
+        ["6pm", 11],
+        ["5pm", 4],
+        ["3pm", 4],
+        ["4pm", 4]
+      ],
+      "show": {
+        "name": "The Soul Patch",
+        "hosts": [
+          {
+            "slug": "andrew-linn",
+            "email": "s1477716@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/9609434063925c0dc6d2dc8eabde1ce7",
+            "name": "Andrew Linn"
+          }
+        ],
+        "description": "Rare & Exquisite Soul, Funk, and Classic Hip-hop. An extension of a show that I did at Bowdoin College during undergraduate study. May include occasional guests, show will also include brief explanatory tidbits of background information regarding some of the music played. The idea is fun energy entering the weekend on a Friday afternoon! (as was the slot at Bowdoin)",
+        "demo": "https://cdn.freshair.dev/upload/e64d5fb8541cac562db665c3ebb621c4",
+        "pic": "https://cdn.freshair.dev/upload/7e683867c2756c66e345edf40498dad1"
+      }
+    }
+  },
+  {
+    "user": "maisie",
+    "slug": "apply",
+    "createdAt": "2020-01-24T12:24:38.180Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "mixed-feelings",
+      "producer_type": "no-preference",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 83],
+        ["11pm", 104],
+        ["10pm", 97],
+        ["9pm", 90]
+      ],
+      "show": {
+        "slug": "mixed-feelings",
+        "name": "Mixed Feelings",
+        "hosts": [
+          {
+            "email": "maisiewills6@outlook.com",
+            "slug": "maisiewills",
+            "pic": "https://content.freshair.org.uk/content/images/T-Osd18wR.jpg",
+            "name": "Maisie Wills"
+          },
+          {
+            "email": "lilyezme@gmail.com",
+            "slug": "esme",
+            "pic": null,
+            "name": "Esme Haddrill Selman"
+          }
+        ],
+        "description": "esmé: did u know if u dont get enough sleep gunk forms in ur brain",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/Screenshot-2019-10-15-at-00.15.53.png"
+      }
+    }
+  },
+  {
+    "user": "henry",
+    "slug": "apply",
+    "createdAt": "2020-01-24T12:34:11.831Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "dance_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "WAVELENGTH",
+        "description": "WAVELENGTH is a show dedicated to exploring different genres of dance music - giving our audience something that they can groove to whilst also filling them in on the past, present and future of this genre. Every week we will be looking at a different genre, from disco to dancehall and everything in between. We'll be hosting guest DJs and music enthusiasts to bring great mixes and interesting and informative conversation about dance music. "
+      },
+      "show_pic": "b5087a09955bc3973778ada55ba2ee2a",
+      "show_people": ["henry"],
+      "show_demo": "398b4dea302f9fe6118eee2192477389",
+      "producer_type": "no-preference",
+      "show_category": "dance-music",
+      "dance_availability": [
+        ["8pm", 2],
+        ["8pm", 3],
+        ["8pm", 4]
+      ],
+      "show": {
+        "name": "WAVELENGTH",
+        "hosts": [
+          {
+            "slug": "henry",
+            "email": "s1503737@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/75c6a1b04871917acca0eee6d14cbc08",
+            "name": "Henry Henderson"
+          }
+        ],
+        "description": "WAVELENGTH is a show dedicated to exploring different genres of dance music - giving our audience something that they can groove to whilst also filling them in on the past, present and future of this genre. Every week we will be looking at a different genre, from disco to dancehall and everything in between. We'll be hosting guest DJs and music enthusiasts to bring great mixes and interesting and informative conversation about dance music. ",
+        "demo": "https://cdn.freshair.dev/upload/398b4dea302f9fe6118eee2192477389",
+        "pic": "https://cdn.freshair.dev/upload/b5087a09955bc3973778ada55ba2ee2a"
+      }
+    }
+  },
+  {
+    "user": "george-cayley",
+    "slug": "apply",
+    "createdAt": "2020-01-24T13:47:05.966Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "Fudge Sunday ",
+        "description": "A worldwide spectrum of far found sounds from all walks of life. uncut gems of toe tappers, belly poppers and smile makers, exploring unusual sounds and focusing on the art. "
+      },
+      "show_pic": "e31c1a4fe067e182f5c8a4756d4420ec",
+      "show_people": [],
+      "show_demo": "cb908fc208138a976ecaed57d6560888",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [
+        ["12pm", 25],
+        ["11am", 18],
+        ["10am", 11],
+        ["10am", 10],
+        ["11am", 17],
+        ["12pm", 24],
+        ["6pm", 67],
+        ["7pm", 74],
+        ["8pm", 81],
+        ["9pm", 88],
+        ["10pm", 95],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["4pm", 51],
+        ["5pm", 58],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["6pm", 63],
+        ["10pm", 92],
+        ["11pm", 99],
+        ["8pm", 78],
+        ["9pm", 85],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["9am", 5],
+        ["10am", 12],
+        ["11am", 19],
+        ["12pm", 26],
+        ["1pm", 33],
+        ["2pm", 40],
+        ["3pm", 47],
+        ["4pm", 54],
+        ["5pm", 61],
+        ["6pm", 68],
+        ["7pm", 75],
+        ["8pm", 82],
+        ["9pm", 89],
+        ["10pm", 96],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["10am", 13],
+        ["9am", 6],
+        ["9am", 1],
+        ["9am", 0],
+        ["9am", 1],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["11pm", 100],
+        ["11pm", 101],
+        ["11pm", 102],
+        ["11pm", 103],
+        ["11pm", 104],
+        ["9am", 1],
+        ["9am", 0],
+        ["10am", 7],
+        ["9am", 1],
+        ["9am", 0],
+        ["9am", 1],
+        ["9am", 0]
+      ],
+      "show": {
+        "name": "Fudge Sunday ",
+        "hosts": [
+          {
+            "slug": "george-cayley",
+            "email": "ged.cayley99@gmail.com",
+            "pic": "",
+            "name": "George Cayley"
+          }
+        ],
+        "description": "A worldwide spectrum of far found sounds from all walks of life. uncut gems of toe tappers, belly poppers and smile makers, exploring unusual sounds and focusing on the art. ",
+        "demo": "https://cdn.freshair.dev/upload/cb908fc208138a976ecaed57d6560888",
+        "pic": "https://cdn.freshair.dev/upload/e31c1a4fe067e182f5c8a4756d4420ec"
+      }
+    }
+  },
+  {
+    "user": "tobias",
+    "slug": "apply",
+    "createdAt": "2020-01-24T14:31:40.706Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "the-beatnik",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["7pm", 72],
+        ["7pm", 71],
+        ["7pm", 70],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["11pm", 99],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77]
+      ],
+      "show": {
+        "slug": "the-beatnik",
+        "name": "The Beatnik",
+        "hosts": [
+          {
+            "email": "tkorner@hotmail.com",
+            "slug": "tobias",
+            "pic": null,
+            "name": "Tobias Korner"
+          }
+        ],
+        "description": "The Beatnik will aim to cover all music from acid to afrobeat, and everything in\nbetween, with some current happenings and general chatter thrown in. We also aim\nto have a real focus on Edinburgh by bringing local DJs on for guest mixes, as\nwell as interviews with the main movers and shakers in the city’s music scene.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/N7cCjjQCxs.jpg"
+      }
+    }
+  },
+  {
+    "user": "andrzej",
+    "slug": "apply",
+    "createdAt": "2020-01-24T14:42:02.208Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "radio-gra",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["10pm", 96],
+        ["11pm", 103],
+        ["11pm", 103],
+        ["10pm", 96],
+        ["9pm", 89],
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["7pm", 73],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["2pm", 38],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["5pm", 58],
+        ["5pm", 58],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39]
+      ],
+      "show": {
+        "slug": "radio-gra",
+        "name": "Radio Gra",
+        "hosts": [
+          {
+            "email": "andy10032000@gmail.com",
+            "slug": "andrzej",
+            "pic": "https://content.freshair.org.uk/content/images/zghm8inUC.jpg",
+            "name": "Andrzej Caba"
+          }
+        ],
+        "description": "I'm Andrew and this is my first radio show. Radio Gra is a show about music.\nMain focus is to talk about concerts I've been to recently and highlight\ninteresting, underground artists. I want to introduce a lot of interesting acts\nin the Polish music scene. Main idea is just to share my passion for music with\npeople and share the music I like. \n\nContact the show here: https://www.facebook.com/niespelnione.ambicje.reccs/",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/IMG_0416.jpg"
+      }
+    }
+  },
+  {
+    "user": "peter",
+    "slug": "apply",
+    "createdAt": "2020-01-24T14:42:42.025Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "sport_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "added-time",
+      "producer_type": "no-preference",
+      "show_category": "sport",
+      "sport_availability": [
+        ["7pm", 73],
+        ["6pm", 66],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["7pm", 76],
+        ["6pm", 69]
+      ],
+      "show": {
+        "slug": "added-time",
+        "name": "Added Time",
+        "hosts": [
+          {
+            "email": "johnsonpeterf@gmail.com",
+            "slug": "peter",
+            "pic": "https://content.freshair.org.uk/content/images/2019/10/fullsizeoutput_ae4.jpeg",
+            "name": "Peter Johnson"
+          }
+        ],
+        "description": "Each week, a crack team of armchair fans and want-to-be pundits give their take\non the biggest sporting stories of the week. Consider us Arsenal Fan TV minus\nthe shouting and swearing, but bigger and bolder opinions.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2020/01/fullsizeoutput_c55.jpeg"
+      }
+    }
+  },
+  {
+    "user": "bella",
+    "slug": "apply",
+    "createdAt": "2020-01-24T15:48:37.917Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "comedy_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "orange-juice",
+      "producer_type": "no-preference",
+      "show_category": "comedy",
+      "comedy_availability": [
+        ["8pm", 80],
+        ["7pm", 73],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["6pm", 66],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53]
+      ],
+      "show": {
+        "slug": "orange-juice",
+        "name": "Orange Juice",
+        "hosts": [
+          {
+            "email": "bella-charlton@hotmail.co.uk",
+            "slug": "bella",
+            "pic": null,
+            "name": "Bella Charlton"
+          },
+          {
+            "email": "ellacradley@gmail.com",
+            "slug": "ella-radley",
+            "pic": null,
+            "name": "Ella Radley"
+          }
+        ],
+        "description": "A large serving of SEGMENTS... with lots of... JUICY BITS and a garnish of\nVITAMIN C. An hour of miscellaneous larks and G O O D SONGS with Ella and Bella.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/Bnh2gUS9M.jpg"
+      }
+    }
+  },
+  {
+    "user": "sam",
+    "slug": "apply",
+    "createdAt": "2020-01-24T17:12:58.003Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Lollygag",
+        "description": "On my show I would be playing music of many genres.\nMainly indie, EDM and the classics. I would also like to bring guests on as much as I can. Such as my friends or local bands if that's possible."
+      },
+      "show_pic": "a27df8bdbfe51e117cb75569d890522d",
+      "show_people": ["sam"],
+      "show_demo": "a9ef46d9f0d46063ed719bf7d880a03c",
+      "producer_type": "technical-help",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["4pm", 50],
+        ["2pm", 36],
+        ["11am", 15],
+        ["10pm", 97],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["5pm", 61],
+        ["5pm", 60],
+        ["12pm", 24],
+        ["9pm", 86],
+        ["10am", 8],
+        ["9am", 0]
+      ],
+      "show": {
+        "name": "Lollygag",
+        "hosts": [
+          {
+            "slug": "sam",
+            "email": "slogan01@icloud.com",
+            "pic": "https://cdn.freshair.dev/upload/1157a4f0a89a98b978d4792e76d7c57a",
+            "name": "Sam Logan"
+          }
+        ],
+        "description": "On my show I would be playing music of many genres.\nMainly indie, EDM and the classics. I would also like to bring guests on as much as I can. Such as my friends or local bands if that's possible.",
+        "demo": "https://cdn.freshair.dev/upload/a9ef46d9f0d46063ed719bf7d880a03c",
+        "pic": "https://cdn.freshair.dev/upload/a27df8bdbfe51e117cb75569d890522d"
+      }
+    }
+  },
+  {
+    "user": "owen",
+    "slug": "apply",
+    "createdAt": "2020-01-24T17:51:47.236Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "808s-hot-takes",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60]
+      ],
+      "show": {
+        "slug": "808s-hot-takes",
+        "name": "808s & Hot Takes",
+        "hosts": [
+          {
+            "email": "s1712037@ed.ac.uk",
+            "slug": "owen",
+            "pic": "https://content.freshair.org.uk/content/images/2019/10/Screenshot-2019-10-21-at-22.49.28.png",
+            "name": "Owen Fuller"
+          },
+          {
+            "email": "npwinter27@gmail.com",
+            "slug": "nicholas",
+            "pic": null,
+            "name": "Nicholas Winter"
+          }
+        ],
+        "description": "Playing and discussing all kinds of music (mainly hip hop) giving you tracks you\nalready love, and new music you're soon to love. With weekly reviews,\ndiscoveries and news!",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/at1JEg6Kn.png"
+      }
+    }
+  },
+  {
+    "user": "natalie",
+    "slug": "apply",
+    "createdAt": "2020-01-24T17:59:36.250Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Netflix trash",
+        "description": "Going through the cringiest Netflix originals and reviewing them (Tall Girl, The Princess Switch etc)"
+      },
+      "show_pic": "b55a5ceac864aa5881427b4c1f02043e",
+      "show_people": ["natalie"],
+      "show_demo": "6c0e2388ac3601fd346aff2605e84e37",
+      "producer_type": "very-involved",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["6pm", 64],
+        ["6pm", 64],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["12pm", 22]
+      ],
+      "show": {
+        "name": "Netflix trash",
+        "hosts": [
+          {
+            "slug": "natalie",
+            "email": "natalieannelewis123@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/0cd72c7e3b0ef06fbc446cde1ec89544",
+            "name": "Natalie Lewis"
+          }
+        ],
+        "description": "Going through the cringiest Netflix originals and reviewing them (Tall Girl, The Princess Switch etc)",
+        "demo": "https://cdn.freshair.dev/upload/6c0e2388ac3601fd346aff2605e84e37",
+        "pic": "https://cdn.freshair.dev/upload/b55a5ceac864aa5881427b4c1f02043e"
+      }
+    }
+  },
+  {
+    "user": "kyle",
+    "slug": "apply",
+    "createdAt": "2020-01-24T20:22:02.470Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "sounds-good",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["3pm", 42],
+        ["12pm", 26],
+        ["11am", 19],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["3pm", 42],
+        ["1pm", 28],
+        ["2pm", 35],
+        ["3pm", 42]
+      ],
+      "show": {
+        "slug": "sounds-good",
+        "name": "Sounds Good",
+        "hosts": [
+          {
+            "email": "kylebrucebfi@gmail.com",
+            "slug": "kyle",
+            "pic": null,
+            "name": "Kyle Bruce"
+          },
+          {
+            "email": "ollylh@hotmail.com",
+            "slug": "olly",
+            "pic": null,
+            "name": "Olly Lloyd-Hooker"
+          }
+        ],
+        "description": "Playing new and recent pop, indie and rock songs from the likes of Keane, Sigrid\nand The Script and a few classics too. Featuring entertainment updates on TV\nshows, film releases and local gigs.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "michaelforward",
+    "slug": "apply",
+    "createdAt": "2020-01-24T20:48:43.232Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "popxpop",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["6pm", 69],
+        ["7pm", 70],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["8pm", 77],
+        ["8pm", 77],
+        ["8pm", 78],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["8pm", 82],
+        ["7pm", 75]
+      ],
+      "show": {
+        "slug": "popxpop",
+        "name": "POPxPOP",
+        "hosts": [
+          {
+            "email": "michaelforwardfm@gmail.com",
+            "slug": "michaelforward",
+            "pic": null,
+            "name": "Michael Forward"
+          }
+        ],
+        "description": "Highlights the best pop music from new alt-pop artists like SOPHIE to classics\nsuch as Lady Gaga.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2JEoY6KM0.png"
+      }
+    }
+  },
+  {
+    "user": "moomal",
+    "slug": "apply",
+    "createdAt": "2020-01-24T21:33:17.765Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Rhythm Divine",
+        "description": "A show focusing on emphasising the importance of actively tackling things like stress management, well-being, time management, being the best you, and basically providing with usable tips/ stories to inspire and improve everyday living. With an added element of 20% international music (Indian/Pakistani- 2 songs per show)"
+      },
+      "show_pic": "5d7ecb9499dd3f14f798b91ad50c6bc8",
+      "show_people": [],
+      "show_demo": "517357009e13e9740ec81231cf0519e9",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["11am", 18],
+        ["12pm", 24],
+        ["12pm", 22],
+        ["10am", 7]
+      ],
+      "show": {
+        "name": "Rhythm Divine",
+        "hosts": [
+          {
+            "slug": "moomal",
+            "email": "m.w.unar@sms.ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/84bb844cb2a495a5c909cd95a10d330e",
+            "name": "Moomal"
+          }
+        ],
+        "description": "A show focusing on emphasising the importance of actively tackling things like stress management, well-being, time management, being the best you, and basically providing with usable tips/ stories to inspire and improve everyday living. With an added element of 20% international music (Indian/Pakistani- 2 songs per show)",
+        "demo": "https://cdn.freshair.dev/upload/517357009e13e9740ec81231cf0519e9",
+        "pic": "https://cdn.freshair.dev/upload/5d7ecb9499dd3f14f798b91ad50c6bc8"
+      }
+    }
+  },
+  {
+    "user": "honor",
+    "slug": "apply",
+    "createdAt": "2020-01-25T00:06:46.554Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "espresso-adulting",
+      "producer_type": "very-involved",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 64],
+        ["7pm", 71],
+        ["8pm", 78],
+        ["9pm", 85],
+        ["10pm", 92],
+        ["11pm", 99],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["6pm", 66],
+        ["7pm", 73],
+        ["8pm", 80],
+        ["9pm", 87],
+        ["10pm", 94],
+        ["11pm", 101],
+        ["11pm", 102],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["6pm", 68],
+        ["7pm", 75],
+        ["8pm", 82],
+        ["9pm", 89],
+        ["10pm", 96],
+        ["11pm", 103],
+        ["11pm", 104],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["5pm", 60],
+        ["5pm", 59],
+        ["5pm", 58],
+        ["5pm", 57],
+        ["5pm", 56],
+        ["6pm", 63]
+      ],
+      "show": {
+        "slug": "espresso-adulting",
+        "name": "Espresso Adulting",
+        "hosts": [
+          {
+            "email": "grace.volante@googlemail.com",
+            "slug": "grace",
+            "pic": "https://content.freshair.org.uk/content/images/D3ihsj0BC.jpg",
+            "name": "Grace Volante"
+          },
+          {
+            "email": "honorcrean@icloud.com",
+            "slug": "honor",
+            "pic": "https://content.freshair.org.uk/content/images/2020/01/IMG_3114-2.JPG",
+            "name": "Honor Crean"
+          },
+          {
+            "email": "s1878300@ed.ac.uk",
+            "slug": "bronagh",
+            "pic": null,
+            "name": "Bronagh Grace"
+          }
+        ],
+        "description": "All you need to know in a shot! Get ready for some good tunes and some not so\ngood news.  Each week we take a major news story or issue and break down the\nhistorical and cultural context from which it has arisen, whether it’s the\npersonal lives of politicians or democracy in Hong Kong, providing a basis for\ndiscussion and opinion-forming that challenges the click-bait culture of current\naffairs. Having framed the issue, we discuss ‘What’s happening now’, setting out\nand unpicking the situation i",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/DiRNr42YB.jpg"
+      }
+    }
+  },
+  {
+    "user": "abigail",
+    "slug": "apply",
+    "createdAt": "2020-01-25T01:41:49.368Z",
+    "path": [
+      "info",
+      "member",
+      "membership_bought",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "No",
+      "membership_bought": "I've bought membership",
+      "show_exists": "No",
+      "show_details": {
+        "name": "DissTopia",
+        "description": "DissTopia will bring on a rotating guestlist of 4th year students from all disciplines to introduce their dissertation focus, DISScuss (sorry) what drew them to that topic, and reveal all the interesting things they've learnt about it since. The idea is to showcase the wacky and wonderful research being carried out by undergraduates across the university behind closed macbooks. Think ‘In Our Time with Melvynn Bragg’.. but with me instead of Melvynn Bragg, undergraduates rather than renowned experts, and Edinburgh as the only contributing academic centre."
+      },
+      "show_pic": "49f935feb474c5bba7b112e631ad082f",
+      "show_people": ["abigail"],
+      "show_demo": "8abaa89037726c0b04df4e40cf8bf9c2",
+      "producer_type": "no-preference",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["11am", 16],
+        ["12pm", 23],
+        ["1pm", 30],
+        ["2pm", 37],
+        ["3pm", 44],
+        ["4pm", 51],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42],
+        ["2pm", 35],
+        ["1pm", 28],
+        ["12pm", 21],
+        ["11am", 14]
+      ],
+      "show": {
+        "name": "DissTopia",
+        "hosts": [
+          {
+            "slug": "abigail",
+            "email": "s1610675@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/d55fc69d343462cee0d7827de751a7f1",
+            "name": "Abigail Adams"
+          }
+        ],
+        "description": "DissTopia will bring on a rotating guestlist of 4th year students from all disciplines to introduce their dissertation focus, DISScuss (sorry) what drew them to that topic, and reveal all the interesting things they've learnt about it since. The idea is to showcase the wacky and wonderful research being carried out by undergraduates across the university behind closed macbooks. Think ‘In Our Time with Melvynn Bragg’.. but with me instead of Melvynn Bragg, undergraduates rather than renowned experts, and Edinburgh as the only contributing academic centre.",
+        "demo": "https://cdn.freshair.dev/upload/8abaa89037726c0b04df4e40cf8bf9c2",
+        "pic": "https://cdn.freshair.dev/upload/49f935feb474c5bba7b112e631ad082f"
+      }
+    }
+  },
+  {
+    "user": "john",
+    "slug": "apply",
+    "createdAt": "2020-01-25T10:21:53.746Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "alternate-current",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["3pm", 42],
+        ["1pm", 28],
+        ["10am", 7],
+        ["9am", 0],
+        ["9am", 2],
+        ["9am", 1],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["9am", 3],
+        ["10am", 10],
+        ["11am", 17],
+        ["12pm", 24],
+        ["1pm", 31]
+      ],
+      "show": {
+        "slug": "alternate-current",
+        "name": "Alternate Current",
+        "hosts": [
+          {
+            "email": "jmckerr98@gmail.com",
+            "slug": "john",
+            "pic": null,
+            "name": "John McKerr"
+          }
+        ],
+        "description": "Introducing Alternate Current, the indie electronic music show! Tune in weekly\nTuesdays 15:00 for all the best things unconventional in the world of music.\nSink in to the alternative acoustics, sultry synths and broody basses as we\nenlighten you on the genre-defining classics, as well as all the best new hits!",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/DXAoNQs4m.jpg"
+      }
+    }
+  },
+  {
+    "user": "meredith",
+    "slug": "apply",
+    "createdAt": "2020-01-25T12:54:05.308Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "omg-and",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["5pm", 60],
+        ["9am", 4],
+        ["2pm", 41],
+        ["2pm", 40],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["10am", 13],
+        ["10am", 12],
+        ["1pm", 33],
+        ["1pm", 33],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["10am", 12],
+        ["6pm", 64],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["9am", 0],
+        ["9am", 1],
+        ["9am", 2],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["11am", 16],
+        ["10am", 9],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["12pm", 22],
+        ["11am", 15],
+        ["10am", 8],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42],
+        ["2pm", 35],
+        ["1pm", 28],
+        ["12pm", 21],
+        ["11am", 14],
+        ["10am", 7]
+      ],
+      "show": {
+        "slug": "omg-and",
+        "name": "OMG AND",
+        "hosts": [
+          {
+            "email": "meredithorpe@gmail.com",
+            "slug": "meredith",
+            "pic": null,
+            "name": "Meredith Thorpe"
+          }
+        ],
+        "description": "The title of the show came from me realising just how often I say 'Omg, and..'\nwhen telling my friends about new songs, albums and musical announcements. So\nthis show is me extending that conversation - telling you about new songs, older\nsongs I've just discovered and love, and news from bands and celebrities I'm\ninvested in!",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/omg-and-radio-pic.jpg"
+      }
+    }
+  },
+  {
+    "user": "lara",
+    "slug": "apply",
+    "createdAt": "2020-01-25T13:42:08.735Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "made-in-walford",
+      "producer_type": "technical-help",
+      "show_category": "other",
+      "other_availability": [
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["4pm", 51],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42],
+        ["9pm", 90],
+        ["9pm", 89],
+        ["8pm", 83],
+        ["8pm", 82],
+        ["7pm", 76],
+        ["7pm", 75],
+        ["6pm", 69],
+        ["6pm", 68],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["4pm", 55],
+        ["4pm", 54],
+        ["3pm", 48],
+        ["3pm", 47],
+        ["2pm", 41],
+        ["2pm", 40],
+        ["1pm", 34],
+        ["1pm", 33],
+        ["12pm", 27],
+        ["12pm", 26],
+        ["11am", 20],
+        ["11am", 19]
+      ],
+      "show": {
+        "slug": "made-in-walford",
+        "name": "Made in Walford",
+        "hosts": [
+          {
+            "email": "s1711310@ed.ac.uk",
+            "slug": "lara",
+            "pic": null,
+            "name": "Lara Farrow"
+          },
+          {
+            "email": "fionamcdonald24@gmail.com",
+            "slug": "fiona",
+            "pic": null,
+            "name": "Fiona McDonald"
+          }
+        ],
+        "description": "Drawing influence from the bastions of civilisation that are their home towns,\nWalford serves as a fictional utopia that Lara and Fiona hope to escape to /\nthink into existence if they talk about it enough live on air. You're welcome to\ncome along for the ride.\n\nSaturdays 3-4pm",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/ck__bh7Ms.png"
+      }
+    }
+  },
+  {
+    "user": "cassandra",
+    "slug": "apply",
+    "createdAt": "2020-01-25T14:28:31.318Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "comedy_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "wisdom",
+      "producer_type": "no-preference",
+      "show_category": "comedy",
+      "comedy_availability": [
+        ["6pm", 63],
+        ["5pm", 56],
+        ["5pm", 56],
+        ["8pm", 77],
+        ["9pm", 84],
+        ["10pm", 91],
+        ["7pm", 70],
+        ["5pm", 56],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["5pm", 56]
+      ],
+      "show": {
+        "slug": "wisdom",
+        "name": "Wisdumb",
+        "hosts": [
+          {
+            "email": "webmaster@freshair.org.uk",
+            "slug": "freshair-member",
+            "pic": null,
+            "name": "Freshair Member"
+          }
+        ],
+        "description": "Wisdumb is a discussion/comedy show where presenters Ed Meltzer and Cassandra\nSawtell give dumb answers to those seeking wise advice on life and current\naffairs.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "dalia",
+    "slug": "apply",
+    "createdAt": "2020-01-25T15:46:01.309Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "hip_hop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "the-dizzy-show",
+      "producer_type": "no-preference",
+      "show_category": "hip-hop-r-b-music",
+      "hip_hop_availability": [
+        ["8pm", 24],
+        ["7pm", 17],
+        ["6pm", 10],
+        ["5pm", 3],
+        ["8pm", 23],
+        ["7pm", 16],
+        ["6pm", 9],
+        ["5pm", 2],
+        ["8pm", 22],
+        ["7pm", 15],
+        ["6pm", 8],
+        ["5pm", 1],
+        ["8pm", 21],
+        ["7pm", 14],
+        ["6pm", 7],
+        ["5pm", 0],
+        ["8pm", 27],
+        ["7pm", 20],
+        ["6pm", 13],
+        ["5pm", 6],
+        ["8pm", 25],
+        ["7pm", 18],
+        ["6pm", 11],
+        ["5pm", 4],
+        ["8pm", 26],
+        ["7pm", 19],
+        ["6pm", 12],
+        ["5pm", 5]
+      ],
+      "show": {
+        "slug": "the-dizzy-show",
+        "name": "The Dizzy Show",
+        "hosts": [
+          {
+            "email": "daldul7@gmail.com",
+            "slug": "dalia",
+            "pic": "https://content.freshair.org.uk/content/images/lhsSr79OQ.jpg",
+            "name": "Dalia Impiglia"
+          }
+        ],
+        "description": "Dedicated to the roots of hip hop, the Dizzy Show is all about the backstories\nand the culture of what is rap. Spanning from coast to coast of America, to the\nBritish rap scene and beyond, to having locals live broadcasting their own music\non the air; delving into the archives of jazz, RnB, blues, motown influences...\neach week will be unpacking a different side of the history of hip hop. \n\nSaturdays from 6pm - 7pm on FreshAir.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/YgxvIP3Fdi.jpg"
+      }
+    }
+  },
+  {
+    "user": "miles",
+    "slug": "apply",
+    "createdAt": "2020-01-25T19:05:25.931Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "the-hour-of-power",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["5pm", 56],
+        ["6pm", 63],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18]
+      ],
+      "show": {
+        "slug": "the-hour-of-power",
+        "name": "The Hour of Power",
+        "hosts": [
+          {
+            "email": "s1716900@sms.ed.ac.uk",
+            "slug": "fergus",
+            "pic": "https://content.freshair.org.uk/content/images/eo1IGRsCq2.jpg",
+            "name": "Fergus Blackwell"
+          },
+          {
+            "email": "s1746137@sms.ed.ac.uk",
+            "slug": "miles",
+            "pic": null,
+            "name": "Miles Mann"
+          }
+        ],
+        "description": "This is an informal chat show, which discusses uni life in general with a\nparticular attention on sports. A variety of music will be played, but mainly\nhip-hop.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/zUoQZA1vT.jpg"
+      }
+    }
+  },
+  {
+    "user": "paul-kaemmerer",
+    "slug": "apply",
+    "createdAt": "2020-01-25T21:10:53.048Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Not Just Any Cruise",
+        "description": "Take off on a groovy ride to the city shore. Dive into the depths of Japanese City Pop and splash into the lagunas of Música Popular Brasileira - driven by the oscillating waves of the polymoog. For sun seekers, yacht riders and highball lovers alike."
+      },
+      "show_pic": "401b7f1d9f988cee193d822d5acd68eb",
+      "show_people": ["paul-kaemmerer"],
+      "show_demo": "154669d1736c82a164f6fd921adcba09",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["8pm", 80],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18],
+        ["10am", 11],
+        ["10am", 10],
+        ["11am", 17],
+        ["12pm", 24],
+        ["1pm", 31],
+        ["2pm", 38],
+        ["3pm", 45],
+        ["9pm", 87],
+        ["10pm", 94],
+        ["11pm", 101],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["2pm", 37],
+        ["3pm", 43]
+      ],
+      "show": {
+        "name": "Not Just Any Cruise",
+        "hosts": [
+          {
+            "slug": "paul-kaemmerer",
+            "email": "paulkaemmerer@web.de",
+            "pic": "https://cdn.freshair.dev/upload/401b7f1d9f988cee193d822d5acd68eb",
+            "name": "Paul Kaemmerer"
+          }
+        ],
+        "description": "Take off on a groovy ride to the city shore. Dive into the depths of Japanese City Pop and splash into the lagunas of Música Popular Brasileira - driven by the oscillating waves of the polymoog. For sun seekers, yacht riders and highball lovers alike.",
+        "demo": "https://cdn.freshair.dev/upload/154669d1736c82a164f6fd921adcba09",
+        "pic": "https://cdn.freshair.dev/upload/401b7f1d9f988cee193d822d5acd68eb"
+      }
+    }
+  },
+  {
+    "user": "spencer",
+    "slug": "apply",
+    "createdAt": "2020-01-25T23:15:35.644Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Me and the Boys Talk About Fashion",
+        "description": "Discussing and dissecting the multifaceted phenomenon that is fashion by addressing its many causes and causations with each other and friends of ours."
+      },
+      "show_pic": "af69827dc6f8e08de351fd136347a7c3",
+      "show_people": ["therese"],
+      "show_demo": "74e1085cb3ac07d033daeeb5c4b41e86",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["2pm", 41],
+        ["2pm", 40],
+        ["2pm", 39],
+        ["2pm", 39],
+        ["3pm", 48],
+        ["3pm", 47],
+        ["4pm", 55],
+        ["4pm", 54],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["6pm", 69],
+        ["6pm", 68],
+        ["6pm", 67],
+        ["6pm", 63],
+        ["6pm", 64],
+        ["6pm", 65]
+      ],
+      "show": {
+        "name": "Me and the Boys Talk About Fashion",
+        "hosts": [
+          {
+            "slug": "spencer",
+            "email": "spencerhl510@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/ee099b3fe5e1b92aef1fd1099deba8d4",
+            "name": "Spencer Low"
+          },
+          {
+            "slug": "therese",
+            "email": "t.ribeiro@sms.ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/f446edcf8e80e509415be77279d709e0",
+            "name": "Therese Ribeiro"
+          }
+        ],
+        "description": "Discussing and dissecting the multifaceted phenomenon that is fashion by addressing its many causes and causations with each other and friends of ours.",
+        "demo": "https://cdn.freshair.dev/upload/74e1085cb3ac07d033daeeb5c4b41e86",
+        "pic": "https://cdn.freshair.dev/upload/af69827dc6f8e08de351fd136347a7c3"
+      }
+    }
+  },
+  {
+    "user": "julianna",
+    "slug": "apply",
+    "createdAt": "2020-01-26T11:02:40.744Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "spins-and-needles",
+      "producer_type": "very-involved",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["2pm", 39],
+        ["3pm", 46],
+        ["1pm", 32],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63]
+      ],
+      "show": {
+        "slug": "spins-and-needles",
+        "name": "Spins and Needles",
+        "hosts": [
+          {
+            "email": "J.Ritzu@sms.ed.ac.uk",
+            "slug": "julianna",
+            "pic": null,
+            "name": "Julianna Ritzu"
+          }
+        ],
+        "description": "Spins and Needles curates rock n roll selections from “back in my day,” hosted\nby Julianna Ritzu and produced by Orlando Low; two people without the life\nexperience to understand what that saying truly means. Guided by a theme each\nweek, we will be bringing you a playlist of tunes to suit the occasion, covering\nbuddy holly to bikini kill. So tune in and enjoy good music and unsolicited\nmusical opinions from someone who should have had her mic turned off a long time\nago.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/peanuts_33rpm-copy.jpg"
+      }
+    }
+  },
+  {
+    "user": "emily",
+    "slug": "apply",
+    "createdAt": "2020-01-26T11:06:38.565Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "brew-it-over",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["9am", 0],
+        ["9am", 0],
+        ["12pm", 25],
+        ["11am", 18],
+        ["10am", 11],
+        ["9am", 4],
+        ["12pm", 27],
+        ["12pm", 26],
+        ["11am", 20],
+        ["10am", 13],
+        ["9am", 6],
+        ["11am", 19],
+        ["10am", 12],
+        ["9am", 5]
+      ],
+      "show": {
+        "slug": "brew-it-over",
+        "name": "Brew It Over",
+        "hosts": [
+          {
+            "email": "s1706505@ed.ac.uk",
+            "slug": "rosie",
+            "pic": null,
+            "name": "Rosie Byrne"
+          },
+          {
+            "email": "s1711685@ed.ac.uk",
+            "slug": "francesca",
+            "pic": null,
+            "name": "Francesca Salvini"
+          },
+          {
+            "email": "s1795111@ed.ac.uk",
+            "slug": "emily",
+            "pic": null,
+            "name": "Emily Stammers"
+          }
+        ],
+        "description": "4 students brewing over the latest issues with a cup of tea in hand - every\nSaturday 10-11am",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/ba9Zkj6XK.png"
+      }
+    }
+  },
+  {
+    "user": "emily-hazlitt",
+    "slug": "apply",
+    "createdAt": "2020-01-26T12:00:27.604Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Emily Hazlitt",
+        "description": "Disarray: A state of disorganisation. Otherwise known as the ending of my university life. This show is two birds, one stone. Discussing the source of feelings of disarray. From graduate jobs, to house mates, to moving back in with my parents. I’ve been there, done that, albeit not always well, but I do have a tale to tell. Mixed through with my love for an unrestricted array of music. Be a folk & country dedicate, and a house worshipper. Not categories here. So What You Waiting For? Spice Up Your Life - Miss Independent - because Baby You Were Born to Run. "
+      },
+      "show_pic": "408f5244edbc48a89194b3752e768c4d",
+      "show_people": ["emily-hazlitt"],
+      "show_demo": "bea571e25c21b65d73db621569d8c93e",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["6pm", 63],
+        ["5pm", 56],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["10am", 12],
+        ["9am", 5],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["10am", 13],
+        ["9am", 6]
+      ],
+      "show": {
+        "name": "Emily Hazlitt",
+        "hosts": [
+          {
+            "slug": "emily-hazlitt",
+            "email": "emily.hazlitt@btinternet.com",
+            "pic": "https://cdn.freshair.dev/upload/408f5244edbc48a89194b3752e768c4d",
+            "name": "Emily Hazlitt"
+          }
+        ],
+        "description": "Disarray: A state of disorganisation. Otherwise known as the ending of my university life. This show is two birds, one stone. Discussing the source of feelings of disarray. From graduate jobs, to house mates, to moving back in with my parents. I’ve been there, done that, albeit not always well, but I do have a tale to tell. Mixed through with my love for an unrestricted array of music. Be a folk & country dedicate, and a house worshipper. Not categories here. So What You Waiting For? Spice Up Your Life - Miss Independent - because Baby You Were Born to Run. ",
+        "demo": "https://cdn.freshair.dev/upload/bea571e25c21b65d73db621569d8c93e",
+        "pic": "https://cdn.freshair.dev/upload/408f5244edbc48a89194b3752e768c4d"
+      }
+    }
+  },
+  {
+    "user": "sophieroadnight",
+    "slug": "apply",
+    "createdAt": "2020-01-26T12:19:01.356Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "good-chat",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [
+        ["2pm", 41],
+        ["3pm", 48],
+        ["3pm", 46],
+        ["2pm", 40],
+        ["3pm", 47],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["4pm", 52],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65]
+      ],
+      "show": {
+        "slug": "good-chat",
+        "name": "good chat",
+        "hosts": [
+          {
+            "email": "s1822863@ed.ac.uk",
+            "slug": "sophieroadnight",
+            "pic": "https://content.freshair.org.uk/content/images/2019/11/Screenshot-2019-10-16-at-18.16.37.png",
+            "name": "Sophie Roadnight"
+          }
+        ],
+        "description": "A thoughtful and relatable conversation about everyday topics. With a new guest\nand a different topic every week, we discuss ideas such as identity and self\nexpression; friends and family and what they mean; the body and its uses; food\nand nutrition; the environment; childhood, education and academia; and pretty\nmuch every single week; self-luuuuv. Very feel good. Get a cup of tea whilst\nyou're listening.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "joe",
+    "slug": "apply",
+    "createdAt": "2020-01-26T13:18:03.950Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "sound-of-scotland",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["10pm", 91],
+        ["10pm", 92],
+        ["10pm", 93],
+        ["10pm", 93],
+        ["10pm", 93],
+        ["10pm", 93],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["9pm", 85],
+        ["9pm", 84],
+        ["8pm", 79],
+        ["8pm", 78],
+        ["8pm", 77],
+        ["7pm", 72],
+        ["7pm", 71],
+        ["7pm", 70]
+      ],
+      "show": {
+        "slug": "sound-of-scotland",
+        "name": "Sound of Scotland",
+        "hosts": [
+          {
+            "email": "s1802662@ed.ac.uk",
+            "slug": "joe",
+            "pic": null,
+            "name": "Joe Sweeney"
+          }
+        ],
+        "description": "Bringing you an hour of music from all over the country, Sound of Scotland plays\nnew and old Scottish tunes as well as some songs you didn’t know were Scottish",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "joe-weinstein",
+    "slug": "apply",
+    "createdAt": "2020-01-26T14:16:59.352Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "mojo",
+      "producer_type": "technical-help",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["12pm", 22]
+      ],
+      "show": {
+        "slug": "mojo",
+        "name": "MoJo",
+        "hosts": [
+          {
+            "email": "123josef@gmail.com",
+            "slug": "joe-weinstein",
+            "pic": null,
+            "name": "Joe Weinstein"
+          }
+        ],
+        "description": "The show which takes a certain year, period, genre or place and explores all\nthat it musically has to offer. Great tracks, interviews, guests and everything\nin-between.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/12/78530469_3305872332776022_1902688765739008000_n.png"
+      }
+    }
+  },
+  {
+    "user": "mel",
+    "slug": "apply",
+    "createdAt": "2020-01-26T14:35:16.467Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "just-girly-things",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [
+        ["4pm", 52],
+        ["6pm", 69],
+        ["7pm", 76],
+        ["8pm", 83],
+        ["9pm", 90],
+        ["10pm", 97],
+        ["10pm", 96],
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["6pm", 67],
+        ["7pm", 74],
+        ["8pm", 81],
+        ["9pm", 88],
+        ["10pm", 95],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["9pm", 85],
+        ["10pm", 92],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["4pm", 52],
+        ["4pm", 52],
+        ["4pm", 52],
+        ["4pm", 52],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["4pm", 52],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["4pm", 52]
+      ],
+      "show": {
+        "slug": "just-girly-things",
+        "name": "Just Girly Things",
+        "hosts": [
+          {
+            "email": "melissasmith966@gmail.com",
+            "slug": "mel",
+            "pic": null,
+            "name": "Mel"
+          },
+          {
+            "email": "J.Ritzu@sms.ed.ac.uk",
+            "slug": "julianna",
+            "pic": null,
+            "name": "Julianna Ritzu"
+          }
+        ],
+        "description": "Just some girls chattin about \"Just Girly Things\"... jkjk We are a group of\nintelligent young women who share our down-to-earth insight on topical issues of\nthe week paired with some bangin tunes. So tune in for the tunes ;)",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/11/72831701_750960352045945_8839087706425262080_n.jpg"
+      }
+    }
+  },
+  {
+    "user": "helene",
+    "slug": "apply",
+    "createdAt": "2020-01-26T15:05:48.801Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "dance_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "electro-worldwide",
+      "producer_type": "no-preference",
+      "show_category": "dance-music",
+      "dance_availability": [
+        ["8pm", 6],
+        ["9pm", 7]
+      ],
+      "show": {
+        "slug": "electro-worldwide",
+        "name": "Electro WorldWide",
+        "hosts": [
+          {
+            "email": "helene.engler@t-online.de",
+            "slug": "helene",
+            "pic": "https://content.freshair.org.uk/content/images/3DtNcHcCh.jpg",
+            "name": "Helene Engler"
+          }
+        ],
+        "description": "I´ll choose a different region or country each week and introduce you to the\nelectronic music from around there that I know and enjoy. I might also share\ntidbits of the artists and electro scene around there.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/e24ZhQu4J.jpg"
+      }
+    }
+  },
+  {
+    "user": "isabelle",
+    "slug": "apply",
+    "createdAt": "2020-01-26T15:27:21.476Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Oooo I have a query",
+        "description": "a chatshow based around poetry but ends up really just being about whatever is going on in the world or in our heads"
+      },
+      "show_pic": "3ed273f8e0a143d519040589fcbef410",
+      "show_people": [],
+      "show_demo": "dcc36f01a259a4f6502be9ce3b8bc0c8",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["12pm", 24],
+        ["11am", 17],
+        ["10am", 10],
+        ["5pm", 58],
+        ["6pm", 65],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["6pm", 64],
+        ["10am", 8],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["11am", 14],
+        ["10am", 7]
+      ],
+      "show": {
+        "name": "Oooo I have a query",
+        "hosts": [
+          {
+            "slug": "isabelle",
+            "email": "isabelleghodgson@gmail.com",
+            "pic": "",
+            "name": "Isabelle Hodgson"
+          }
+        ],
+        "description": "a chatshow based around poetry but ends up really just being about whatever is going on in the world or in our heads",
+        "demo": "https://cdn.freshair.dev/upload/dcc36f01a259a4f6502be9ce3b8bc0c8",
+        "pic": "https://cdn.freshair.dev/upload/3ed273f8e0a143d519040589fcbef410"
+      }
+    }
+  },
+  {
+    "user": "gabriel",
+    "slug": "apply",
+    "createdAt": "2020-01-26T15:59:56.937Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "banana-pancakes",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["12pm", 26],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 27],
+        ["11am", 20]
+      ],
+      "show": {
+        "slug": "banana-pancakes",
+        "name": "Banana Pancakes",
+        "hosts": [
+          {
+            "email": "gabrielbenitez99@hotmail.com",
+            "slug": "gabriel",
+            "pic": "https://content.freshair.org.uk/content/images/acT4N65UZH.jpg",
+            "name": "Gabriel Benitez"
+          }
+        ],
+        "description": "Picture this: Saturday afternoon. You're at the library pretending to do work/at\nhome still trying to recover from last night/about to head on your 4th tinder\ndate this month, and you tune in to Freshair.org.uk at 2pm.   ; Awful jokes,\nsemi-good meal recipes, an unhealthy obsession with Kanye West and embarrassing\nstories as we come round and re-think our life choices. Banana Pancakes.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/odVbncpA1.jpg"
+      }
+    }
+  },
+  {
+    "user": "hugo-kulak",
+    "slug": "apply",
+    "createdAt": "2020-01-26T17:06:29.351Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "2-dudes-one-bloke",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["11pm", 102],
+        ["11pm", 101],
+        ["11pm", 101],
+        ["11pm", 100],
+        ["11pm", 101],
+        ["11pm", 101],
+        ["11pm", 99],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["5pm", 59],
+        ["5pm", 58],
+        ["5pm", 57],
+        ["5pm", 56]
+      ],
+      "show": {
+        "slug": "2-dudes-one-bloke",
+        "name": "2 Dudes & one Bloke",
+        "hosts": [
+          {
+            "email": "nscholl99@gmail.com",
+            "slug": "nathaniel",
+            "pic": "https://content.freshair.org.uk/content/images/Q3GqFHM19.png",
+            "name": "Nathaniel Scholl"
+          }
+        ],
+        "description": "Music focused show, most genres get played but centers around experimental rap\nand r&b, world music, and dance genres. Dialogue includes commentary about music\nscenes and comparisons of growing up in London, Chicago and rural United States\nas our presenters are all from different places. Last 10-15 minutes is a\ndiscussion of new albums",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "polly",
+    "slug": "apply",
+    "createdAt": "2020-01-26T17:38:44.284Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "The Lola Show",
+        "description": "interviews with people about their creative endeavours"
+      },
+      "show_pic": "92aadf340d7a62635cea70ad2c8170eb",
+      "show_people": [],
+      "show_demo": "c2c22077bc4be2eee337ce4a374147e5",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [
+        ["5pm", 57],
+        ["11am", 20],
+        ["11am", 19],
+        ["10am", 13],
+        ["10am", 12],
+        ["10am", 11],
+        ["10am", 10],
+        ["10am", 9],
+        ["10am", 8],
+        ["10am", 7]
+      ],
+      "show": {
+        "name": "The Lola Show",
+        "hosts": [
+          {
+            "slug": "polly",
+            "email": "pollygates@hotmail.com",
+            "pic": "",
+            "name": "Polly Gates"
+          }
+        ],
+        "description": "interviews with people about their creative endeavours",
+        "demo": "https://cdn.freshair.dev/upload/c2c22077bc4be2eee337ce4a374147e5",
+        "pic": "https://cdn.freshair.dev/upload/92aadf340d7a62635cea70ad2c8170eb"
+      }
+    }
+  },
+  {
+    "user": "niamh",
+    "slug": "apply",
+    "createdAt": "2020-01-26T18:07:37.401Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "some-of-you-didnt-listen-to-8tracks-and-it-really-shows",
+      "producer_type": "technical-help",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["1pm", 32],
+        ["2pm", 39],
+        ["3pm", 46],
+        ["4pm", 53],
+        ["5pm", 60],
+        ["6pm", 67],
+        ["7pm", 74],
+        ["12pm", 25],
+        ["1pm", 31],
+        ["2pm", 38],
+        ["3pm", 45],
+        ["4pm", 52],
+        ["12pm", 24],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42],
+        ["2pm", 35],
+        ["1pm", 28]
+      ],
+      "show": {
+        "slug": "some-of-you-didnt-listen-to-8tracks-and-it-really-shows",
+        "name": "Some of you didn't listen to 8tracks and it really shows",
+        "hosts": [
+          {
+            "email": "niamh.cullenc@gmail.com",
+            "slug": "niamh",
+            "pic": "https://content.freshair.org.uk/content/images/A71OEkHZ.jpg",
+            "name": "Niamh Cullen"
+          }
+        ],
+        "description": "The age of 8tracks was a simpler time. The wise few who know 8tracks can\nreminisce for an hour of nostalgia and those who clearly lacked taste in their\nteen years can receive a musical education. Each week a new painfully specific\nplaylist revolving around a painfully specific scenario which always manages to\nhave Lana del Rey's Born To Die in there somewhere.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/fie3j4Ck.jpg"
+      }
+    }
+  },
+  {
+    "user": "issi",
+    "slug": "apply",
+    "createdAt": "2020-01-26T18:11:28.138Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Top Culture",
+        "description": "Each week Issi and Regan will ask a special guest about their top pop culture moments from the decade, year and week. "
+      },
+      "show_pic": "3a42244102f4ca715b6c14114ce89a7b",
+      "show_people": [],
+      "show_demo": "81ed206c90e11685b504e0ccd9abfffb",
+      "producer_type": "technical-help",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["9pm", 90],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["9pm", 90],
+        ["9pm", 89],
+        ["9pm", 89],
+        ["8pm", 83],
+        ["8pm", 82],
+        ["7pm", 76],
+        ["7pm", 75],
+        ["6pm", 69],
+        ["6pm", 68],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["4pm", 55],
+        ["4pm", 54],
+        ["3pm", 48],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["2pm", 41],
+        ["3pm", 45],
+        ["2pm", 38],
+        ["1pm", 31],
+        ["12pm", 24],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["3pm", 43],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["12pm", 22],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42]
+      ],
+      "show": {
+        "name": "Top Culture",
+        "hosts": [
+          {
+            "slug": "issi",
+            "email": "issi.ladd@hotmail.com",
+            "pic": "https://cdn.freshair.dev/upload/681f5c36f4c8931e97d0c2381f07d260",
+            "name": "Issi Ladd"
+          }
+        ],
+        "description": "Each week Issi and Regan will ask a special guest about their top pop culture moments from the decade, year and week. ",
+        "demo": "https://cdn.freshair.dev/upload/81ed206c90e11685b504e0ccd9abfffb",
+        "pic": "https://cdn.freshair.dev/upload/3a42244102f4ca715b6c14114ce89a7b"
+      }
+    }
+  },
+  {
+    "user": "monica-valdivia",
+    "slug": "apply",
+    "createdAt": "2020-01-26T18:29:40.589Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "thats-hot",
+      "producer_type": "very-involved",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18],
+        ["10am", 11],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["2pm", 38],
+        ["1pm", 29],
+        ["12pm", 22],
+        ["11am", 15]
+      ],
+      "show": {
+        "slug": "thats-hot",
+        "name": "That’s Hot",
+        "hosts": [
+          {
+            "email": "monocagvaldivia@gmail.com",
+            "slug": "monica",
+            "pic": null,
+            "name": "Monica Valdivia"
+          }
+        ],
+        "description": "That’s Hot is the show with a musical theme every week ranging from genre’s and\nvibes. Matched with a discussion or a guest on the show.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/KDipyvGM.jpg"
+      }
+    }
+  },
+  {
+    "user": "ella",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:00:01.890Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "its-all-happening",
+      "producer_type": "technical-help",
+      "show_category": "other-music",
+      "other_music_availability": [["2pm", 41]],
+      "show": {
+        "slug": "its-all-happening",
+        "name": "It’s All Happening",
+        "hosts": [
+          {
+            "email": "ellakop21@gmail.com",
+            "slug": "ella",
+            "pic": "https://content.freshair.org.uk/content/images/AlIwfI17Ts.jpg",
+            "name": "Ella Kopeikin"
+          }
+        ],
+        "description": "Each week I give my dream soundtrack for one of my favorite movies",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/r7HkyJQUC6.jpg"
+      }
+    }
+  },
+  {
+    "user": "ryan-mcneil",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:00:11.958Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "sport_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Bonucci Gang",
+        "description": "A light-hearted and uninformed show focusing on events in football and popular music. A mix of discussion of the latest games and news, regular segments and our terrible taste in music."
+      },
+      "show_pic": "bd808d673ce064008fd9ad9ae0daefea",
+      "show_people": ["joe-lodge", "ryan-mcneil"],
+      "show_demo": "2a7c19939fdcd7e02b931b2d1dbf4ba5",
+      "producer_type": "technical-help",
+      "show_category": "sport",
+      "sport_availability": [
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 34],
+        ["2pm", 41],
+        ["3pm", 48],
+        ["4pm", 55],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["6pm", 68],
+        ["7pm", 75],
+        ["8pm", 82],
+        ["9pm", 89],
+        ["10pm", 96],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65]
+      ],
+      "show": {
+        "name": "Bonucci Gang",
+        "hosts": [
+          {
+            "slug": "ryan-mcneil",
+            "email": "s1838380@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/cfc962a1aa57631a04367644340deb6c",
+            "name": "Ryan McNeil"
+          },
+          {
+            "slug": "joe-lodge",
+            "email": "s1840842@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/0062cc216fd10fb2d11d1d99974c30fd",
+            "name": "Joe Lodge"
+          }
+        ],
+        "description": "A light-hearted and uninformed show focusing on events in football and popular music. A mix of discussion of the latest games and news, regular segments and our terrible taste in music.",
+        "demo": "https://cdn.freshair.dev/upload/2a7c19939fdcd7e02b931b2d1dbf4ba5",
+        "pic": "https://cdn.freshair.dev/upload/bd808d673ce064008fd9ad9ae0daefea"
+      }
+    }
+  },
+  {
+    "user": "ella",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:03:05.575Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "politics_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "freshair-news",
+      "producer_type": "technical-help",
+      "show_category": "politics",
+      "politics_availability": [["6pm", 66]],
+      "show": {
+        "slug": "freshair-news",
+        "name": "Freshair News",
+        "hosts": [
+          {
+            "email": "ellakop21@gmail.com",
+            "slug": "ella",
+            "pic": "https://content.freshair.org.uk/content/images/AlIwfI17Ts.jpg",
+            "name": "Ella Kopeikin"
+          }
+        ],
+        "description": "Your news from around the world and right here in Edinburgh delivered by 6 cool\npeeps",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/4gt6wJWn1.jpg"
+      }
+    }
+  },
+  {
+    "user": "hannah-dodd-vastiau",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:11:21.161Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "thats-the-tune",
+      "producer_type": "technical-help",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["4pm", 52],
+        ["3pm", 45],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["3pm", 45],
+        ["3pm", 45],
+        ["5pm", 59],
+        ["4pm", 52]
+      ],
+      "show": {
+        "slug": "thats-the-tune",
+        "name": "That’s the Tune",
+        "hosts": [
+          {
+            "email": "kylebrucebfi@gmail.com",
+            "slug": "kyle",
+            "pic": null,
+            "name": "Kyle Bruce"
+          }
+        ],
+        "description": "Hello!!  ; Welcome to that’s the tune, a show that explores music taste\nevolution.  ; Each week, Hannah, her Freshair producer Kyle play and discuss\nmusic chosen by a different guest. Songs/artists that represent or have meant\nsomething to the guest at a particular time will be played in chronological\norder (from childhood until present).   ; We attempt to explore a strangers\npersonality and story, in just one hour, through their music taste, its\nevolution - and linked anecdotes.   ; Tune in to ",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/hrowd2SH9.jpg"
+      }
+    }
+  },
+  {
+    "user": "ellen",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:19:58.626Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "The Ellen Show",
+        "description": "My spoof of the Ellen show. Gonna play and talk about music I’ve been loving that week and chat about whatever other random things I’m feeling. Also might try and have some friends on for some shows to act as the special guest for the episode "
+      },
+      "show_pic": "ccc1c3e013b5fd51630f818bbf562288",
+      "show_people": [],
+      "show_demo": "3f26186dd73b08af5945290690d44492",
+      "producer_type": "technical-help",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["10am", 12],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["10pm", 94],
+        ["9pm", 87],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["2pm", 38],
+        ["1pm", 31],
+        ["10am", 9],
+        ["10am", 9],
+        ["10am", 9],
+        ["10am", 9],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["11am", 16],
+        ["6pm", 63],
+        ["6pm", 64],
+        ["11pm", 99],
+        ["10pm", 92],
+        ["9pm", 85],
+        ["8pm", 78],
+        ["8pm", 78],
+        ["7pm", 71],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70]
+      ],
+      "show": {
+        "name": "The Ellen Show",
+        "hosts": [
+          {
+            "slug": "ellen",
+            "email": "E.McNally-1@sms.ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/b7d56e1ffe6f5ed0f14d3911773fdaae",
+            "name": "Ellen McNally"
+          }
+        ],
+        "description": "My spoof of the Ellen show. Gonna play and talk about music I’ve been loving that week and chat about whatever other random things I’m feeling. Also might try and have some friends on for some shows to act as the special guest for the episode ",
+        "demo": "https://cdn.freshair.dev/upload/3f26186dd73b08af5945290690d44492",
+        "pic": "https://cdn.freshair.dev/upload/ccc1c3e013b5fd51630f818bbf562288"
+      }
+    }
+  },
+  {
+    "user": "ella-taylor",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:28:36.632Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "tunes-for-the-times",
+      "producer_type": "technical-help",
+      "show_category": "other",
+      "other_availability": [
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["11am", 15],
+        ["12pm", 22],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["10am", 7],
+        ["10am", 7],
+        ["6pm", 63],
+        ["10am", 7],
+        ["10am", 7],
+        ["10am", 7]
+      ],
+      "show": {
+        "slug": "tunes-for-the-times",
+        "name": "Tunes for the Times",
+        "hosts": [
+          {
+            "email": "ellaglenntaylor@gmail.com",
+            "slug": "ella-taylor",
+            "pic": "https://content.freshair.org.uk/content/images/DGR2r2Aci.jpg",
+            "name": "Ella Taylor"
+          }
+        ],
+        "description": "A show to commemorate the happenings of our contemporary world; all of its\nhardships, happiness, and harmonies. I will be bringing on regular guests to\ndiscuss contemporary environmental issues as well as to share music and poetry\nthat make us all feel some type of way. This will be a show combining current\nevents, politics, and sustainability along with music that relates to the topics\nwe will be discussing as well as tunes to allow the listener a bit of a breather\nto reflect on what was discus",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/0tDvmzdJA.jpg"
+      }
+    }
+  },
+  {
+    "user": "felix",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:44:04.762Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "reasonably-good-chat",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [["10am", 7]],
+      "show": {
+        "slug": "reasonably-good-chat",
+        "name": "Reasonably Good Chat",
+        "hosts": [
+          {
+            "email": "emilyffion99@hotmail.co.uk",
+            "slug": "emily-anderson",
+            "pic": null,
+            "name": "Emily Anderson"
+          },
+          {
+            "email": "felixrackow@hotmail.co.uk",
+            "slug": "felix",
+            "pic": "https://content.freshair.org.uk/content/images/J68p4Fb4WH.jpg",
+            "name": "Felix Rackow"
+          },
+          {
+            "email": "niamh.cullenc@gmail.com",
+            "slug": "niamh",
+            "pic": "https://content.freshair.org.uk/content/images/A71OEkHZ.jpg",
+            "name": "Niamh Cullen"
+          }
+        ],
+        "description": "'Reasonably Good Chat' is exactly what it says on the tin (we hope) - join Emily\nand Felix every Friday from 10-11am for an hour of music and chat about pop\nculture, politics and everything in between...",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "rachel",
+    "slug": "apply",
+    "createdAt": "2020-01-26T19:48:11.236Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Sit Down for Sitcoms",
+        "description": "Discussing all things sitcom - the funny, the dull, and the confusingly in-between."
+      },
+      "show_pic": "9d9777dd05627be81544c3161af2e12d",
+      "show_people": ["rachel"],
+      "show_demo": "f53de576c50eadcfc3769e2846ccc0f9",
+      "producer_type": "very-involved",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["4pm", 54],
+        ["5pm", 61],
+        ["6pm", 68],
+        ["12pm", 24],
+        ["11am", 17],
+        ["5pm", 59],
+        ["6pm", 66],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["12pm", 25],
+        ["11am", 18],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["2pm", 36],
+        ["3pm", 43],
+        ["5pm", 57],
+        ["4pm", 50],
+        ["6pm", 64],
+        ["6pm", 63],
+        ["5pm", 56]
+      ],
+      "show": {
+        "name": "Sit Down for Sitcoms",
+        "hosts": [
+          {
+            "slug": "rachel",
+            "email": "rachellinnn@gmail.com",
+            "pic": "https://content.freshair.org.uk/content/images/JFRUhATdiq.jpg",
+            "name": "Rachel Lin"
+          }
+        ],
+        "description": "Discussing all things sitcom - the funny, the dull, and the confusingly in-between.",
+        "demo": "https://cdn.freshair.dev/upload/f53de576c50eadcfc3769e2846ccc0f9",
+        "pic": "https://cdn.freshair.dev/upload/9d9777dd05627be81544c3161af2e12d"
+      }
+    }
+  },
+  {
+    "user": "leo",
+    "slug": "apply",
+    "createdAt": "2020-01-26T20:01:06.074Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "hip_hop_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "please-stand-up",
+      "producer_type": "no-preference",
+      "show_category": "hip-hop-r-b-music",
+      "hip_hop_availability": [
+        ["7pm", 19],
+        ["8pm", 26],
+        ["9pm", 33],
+        ["8pm", 26],
+        ["7pm", 19],
+        ["7pm", 18],
+        ["9pm", 33],
+        ["11pm", 48],
+        ["11pm", 45],
+        ["11pm", 44],
+        ["11pm", 43],
+        ["11pm", 42],
+        ["10pm", 38],
+        ["10pm", 37],
+        ["10pm", 36],
+        ["10pm", 35],
+        ["10pm", 41],
+        ["9pm", 34],
+        ["9pm", 28],
+        ["9pm", 29],
+        ["9pm", 30],
+        ["9pm", 31],
+        ["8pm", 27],
+        ["8pm", 24],
+        ["8pm", 23],
+        ["8pm", 22],
+        ["8pm", 21],
+        ["7pm", 19],
+        ["7pm", 19],
+        ["7pm", 19],
+        ["7pm", 20],
+        ["8pm", 26],
+        ["7pm", 19],
+        ["7pm", 19],
+        ["7pm", 20],
+        ["7pm", 19],
+        ["7pm", 18],
+        ["7pm", 17],
+        ["7pm", 16],
+        ["7pm", 15],
+        ["7pm", 14],
+        ["7pm", 14]
+      ],
+      "show": {
+        "slug": "please-stand-up",
+        "name": "Please Stand Up",
+        "hosts": [
+          {
+            "email": "s1640704@ed.ac.uk",
+            "slug": "leo",
+            "pic": null,
+            "name": "Leo O'Mahony"
+          }
+        ],
+        "description": "Every week I play a the work of a different hip hop artist. Working my way\nthrough their catalogue of music, coming out the other side with a better\nimpression of them as an artist than when we went in.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/F25Nf-3M2.png"
+      }
+    }
+  },
+  {
+    "user": "roisin",
+    "slug": "apply",
+    "createdAt": "2020-01-26T20:21:24.546Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "Mind Yourself ",
+        "description": "A chat based show that takes a look at mental health related issues sometimes through discussing media and current affairs or inviting guests to tell their own stories. "
+      },
+      "show_pic": "458d016e20d2ca7c08fca1cc22002cb3",
+      "show_people": [],
+      "show_demo": "83d78fbb5201104b5cc093c1db43e823",
+      "producer_type": "very-involved",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["11am", 19],
+        ["12pm", 26],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["4pm", 52],
+        ["3pm", 45],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["11am", 16]
+      ],
+      "show": {
+        "name": "Mind Yourself ",
+        "hosts": [
+          {
+            "slug": "roisin",
+            "email": "s1776543@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/458d016e20d2ca7c08fca1cc22002cb3",
+            "name": "Roisin Doolan"
+          }
+        ],
+        "description": "A chat based show that takes a look at mental health related issues sometimes through discussing media and current affairs or inviting guests to tell their own stories. ",
+        "demo": "https://cdn.freshair.dev/upload/83d78fbb5201104b5cc093c1db43e823",
+        "pic": "https://cdn.freshair.dev/upload/458d016e20d2ca7c08fca1cc22002cb3"
+      }
+    }
+  },
+  {
+    "user": "ishbel",
+    "slug": "apply",
+    "createdAt": "2020-01-26T20:26:30.127Z",
+    "path": [
+      "long",
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "comedy_availability"
+    ],
+    "data": {
+      "long": true,
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "agony-ishbel-hosts-a-quiz",
+      "producer_type": "no-preference",
+      "show_category": "comedy",
+      "comedy_availability": [
+        ["7pm", 74],
+        ["6pm", 67]
+      ],
+      "show": {
+        "slug": "agony-ishbel-hosts-a-quiz",
+        "name": "Agony Ishbel Hosts a Quiz",
+        "hosts": [
+          {
+            "email": "ishbelmclachlan1@gmail.com",
+            "slug": "ishbel",
+            "pic": "5c35e8760d023df50bf1e7bd58f987a8",
+            "name": "Ishbel McLachlan"
+          }
+        ],
+        "description": "Game/Comedy - Agony Ishbel Hosts a Quiz will be a weekly radio panel show not\nunlike radio 4's news quiz, with perhaps a sprinkling of Would I Lie to You in\nthere for good measure. There will be the opportunity for many Fresh Air teams\nand people form other societies to compete on the show as well as regular team\ncaptains such as Producer James.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "ishbel",
+    "slug": "apply",
+    "createdAt": "2020-01-26T20:27:51.866Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "comedy_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "alright",
+      "producer_type": "no-preference",
+      "show_category": "comedy",
+      "comedy_availability": [["11am", 15]],
+      "show": {
+        "slug": "alright",
+        "name": "Alright?",
+        "hosts": [
+          {
+            "email": "lizzielewlewis@aol.com",
+            "slug": "lizzie",
+            "pic": null,
+            "name": "Lizzie Lewis"
+          },
+          {
+            "email": "ishbelmclachlan1@gmail.com",
+            "slug": "ishbel",
+            "pic": "5c35e8760d023df50bf1e7bd58f987a8",
+            "name": "Ishbel McLachlan"
+          }
+        ],
+        "description": "Comedy - \"Speech-based comedy variety show. Will be having guests on every\nweek.\"",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "rosie-barry-2",
+    "slug": "apply",
+    "createdAt": "2020-01-26T21:10:21.445Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "3 idiots abroad ",
+        "description": "A travel show that seeks to expand people’s horizons, with fun facts, tips from our past experiences and info about all our world has to offee"
+      },
+      "show_pic": "2468056eb62a8dd5c793a120ca1a5a5b",
+      "show_people": [],
+      "show_demo": "53f4a02cf702bef3f83a158990069683",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["1pm", 33],
+        ["12pm", 26],
+        ["1pm", 34],
+        ["12pm", 27],
+        ["11am", 20],
+        ["10am", 13],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["2pm", 41],
+        ["2pm", 40],
+        ["3pm", 47],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54]
+      ],
+      "show": {
+        "name": "3 idiots abroad ",
+        "hosts": [
+          {
+            "slug": "rosie-barry-2",
+            "email": "S1709458@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/2468056eb62a8dd5c793a120ca1a5a5b",
+            "name": "Rosie Barry"
+          }
+        ],
+        "description": "A travel show that seeks to expand people’s horizons, with fun facts, tips from our past experiences and info about all our world has to offee",
+        "demo": "https://cdn.freshair.dev/upload/53f4a02cf702bef3f83a158990069683",
+        "pic": "https://cdn.freshair.dev/upload/2468056eb62a8dd5c793a120ca1a5a5b"
+      }
+    }
+  },
+  {
+    "user": "sarah-begarnie",
+    "slug": "apply",
+    "createdAt": "2020-01-26T21:13:08.107Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "On This Day",
+        "description": "A weird and wonderful history of this date. A look into the famous births and deaths, headlines and music. Lets live in today's past. "
+      },
+      "show_pic": "d63e1b7afa9efa42a81aa7fc32981b40",
+      "show_people": ["orlagh"],
+      "show_demo": "6560898edb0f80e090146a309762c74e",
+      "producer_type": "technical-help",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["11am", 18],
+        ["2pm", 38],
+        ["1pm", 31],
+        ["12pm", 24],
+        ["11am", 17],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46]
+      ],
+      "show": {
+        "name": "On This Day",
+        "hosts": [
+          {
+            "slug": "sarah-begarnie",
+            "email": "s1738746@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/0e46c4b26606c49df9412749664940f1",
+            "name": "Sarah Begarnie"
+          },
+          {
+            "slug": "orlagh",
+            "email": "orlaghjb@icloud.com",
+            "pic": "https://cdn.freshair.dev/upload/8e84a5923989018b6b9cd7feef7576cb",
+            "name": "Orlagh Boyes"
+          }
+        ],
+        "description": "A weird and wonderful history of this date. A look into the famous births and deaths, headlines and music. Lets live in today's past. ",
+        "demo": "https://cdn.freshair.dev/upload/6560898edb0f80e090146a309762c74e",
+        "pic": "https://cdn.freshair.dev/upload/d63e1b7afa9efa42a81aa7fc32981b40"
+      }
+    }
+  },
+  {
+    "user": "mikhail",
+    "slug": "apply",
+    "createdAt": "2020-01-26T21:26:53.560Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "dance_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "On The Flipside",
+        "description": "A show dedicated to underrated music of all genres. Expect DJ mixes with a focus on UK underground music as well as more chilled out shows that include conversations with special guests. "
+      },
+      "show_pic": "b0fc5dd44346a5cf225d5a997a0c5b87",
+      "show_people": ["jason"],
+      "show_demo": "9672e28cbb0941403248747d423fa357",
+      "producer_type": "no-preference",
+      "show_category": "dance-music",
+      "dance_availability": [
+        ["8pm", 0],
+        ["9pm", 7],
+        ["9pm", 9],
+        ["8pm", 2]
+      ],
+      "show": {
+        "name": "On The Flipside",
+        "hosts": [
+          {
+            "slug": "mikhail",
+            "email": "s1609576@ed.ac.uk",
+            "pic": "",
+            "name": "Mikhail Radkevitch"
+          },
+          {
+            "slug": "jason",
+            "email": "jmptakavarasha@gmail.com",
+            "pic": "https://content.freshair.org.uk/content/images/Qo0ToBUV-.jpg",
+            "name": "Jason Takavarasha"
+          }
+        ],
+        "description": "A show dedicated to underrated music of all genres. Expect DJ mixes with a focus on UK underground music as well as more chilled out shows that include conversations with special guests. ",
+        "demo": "https://cdn.freshair.dev/upload/9672e28cbb0941403248747d423fa357",
+        "pic": "https://cdn.freshair.dev/upload/b0fc5dd44346a5cf225d5a997a0c5b87"
+      }
+    }
+  },
+  {
+    "user": "lauryn",
+    "slug": "apply",
+    "createdAt": "2020-01-26T21:47:49.015Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Can't Deal ",
+        "description": "Can't Deal is a fun, honest conversation between two friends who will explore social issues, pop culture and life's dramas. Expect lots of laughs and deep dives into seemingly random ideas in a meaningful, often light-hearted, sometimes angry but always genuine way."
+      },
+      "show_pic": "728b67df2ff0e4d6e96444ec9a6dc36d",
+      "show_people": ["lauryn"],
+      "show_demo": "823dfc13c883fd9e03e0aa306f559b47",
+      "producer_type": "technical-help",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["9pm", 86],
+        ["10pm", 94],
+        ["5pm", 59],
+        ["11pm", 102],
+        ["11pm", 102],
+        ["11pm", 102],
+        ["11pm", 102],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60]
+      ],
+      "show": {
+        "name": "Can't Deal ",
+        "hosts": [
+          {
+            "slug": "lauryn",
+            "email": "lauryn.mwale3@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/2482e5dfdf183d703997ad2ed6bd0c58",
+            "name": "Lauryn"
+          }
+        ],
+        "description": "Can't Deal is a fun, honest conversation between two friends who will explore social issues, pop culture and life's dramas. Expect lots of laughs and deep dives into seemingly random ideas in a meaningful, often light-hearted, sometimes angry but always genuine way.",
+        "demo": "https://cdn.freshair.dev/upload/823dfc13c883fd9e03e0aa306f559b47",
+        "pic": "https://cdn.freshair.dev/upload/728b67df2ff0e4d6e96444ec9a6dc36d"
+      }
+    }
+  },
+  {
+    "user": "richenda",
+    "slug": "apply",
+    "createdAt": "2020-01-26T22:01:15.250Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "old-new-borrowed-blue",
+      "producer_type": "no-preference",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["7pm", 76],
+        ["8pm", 83],
+        ["9pm", 90],
+        ["10pm", 97]
+      ],
+      "show": {
+        "slug": "old-new-borrowed-blue",
+        "name": "Old New Borrowed Blue",
+        "hosts": [
+          {
+            "email": "richenda.rae@me.com",
+            "slug": "richenda",
+            "pic": "https://content.freshair.org.uk/content/images/yDxBwfR4m.jpg",
+            "name": "Richenda Rae"
+          }
+        ],
+        "description": "Old New Borrowed Blue, presented by Natasha Swan and Richenda Rae, has been\nbroadcasting on FreshAir.org.uk since 2016\\. The show brings you discussion and\nall the best tracks from the four categories of Old Music, New Music,\nForeign-Language Music, and Scottish Music.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/ZNBv0NejE.jpg"
+      }
+    }
+  },
+  {
+    "user": "manon",
+    "slug": "apply",
+    "createdAt": "2020-01-26T22:20:26.637Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Silence Please",
+        "description": "I believe stories reflect the true complexity and beauty of being human, so Silence Please will be featuring stories about experiences I myself or others may have had/heard/written. Each week I will pick a theme and gather stories around this."
+      },
+      "show_pic": "944697714339838c66327e4ca7ece8d5",
+      "show_people": ["manon"],
+      "show_demo": "37cfb4c8aa5d55c5b0d7a2509433103c",
+      "producer_type": "very-involved",
+      "show_category": "other",
+      "other_availability": [
+        ["10pm", 97],
+        ["10pm", 96],
+        ["9pm", 90],
+        ["9pm", 89],
+        ["4pm", 55],
+        ["4pm", 54],
+        ["3pm", 48],
+        ["3pm", 47],
+        ["2pm", 41],
+        ["2pm", 40],
+        ["1pm", 34],
+        ["1pm", 33],
+        ["12pm", 27],
+        ["12pm", 26],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["8pm", 80],
+        ["7pm", 73],
+        ["6pm", 66],
+        ["5pm", 59],
+        ["5pm", 56],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["9am", 3],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["9am", 1],
+        ["10am", 7],
+        ["10am", 7],
+        ["10am", 7],
+        ["10am", 7],
+        ["9am", 0]
+      ],
+      "show": {
+        "name": "Silence Please",
+        "hosts": [
+          {
+            "slug": "manon",
+            "email": "manonfrancevoerman@gmail.com",
+            "pic": "https://cdn.freshair.dev/upload/e963d7a890f5e4047db3808cc26037dd",
+            "name": "Manon Voerman"
+          }
+        ],
+        "description": "I believe stories reflect the true complexity and beauty of being human, so Silence Please will be featuring stories about experiences I myself or others may have had/heard/written. Each week I will pick a theme and gather stories around this.",
+        "demo": "https://cdn.freshair.dev/upload/37cfb4c8aa5d55c5b0d7a2509433103c",
+        "pic": "https://cdn.freshair.dev/upload/944697714339838c66327e4ca7ece8d5"
+      }
+    }
+  },
+  {
+    "user": "elham-2",
+    "slug": "apply",
+    "createdAt": "2020-01-26T22:43:00.788Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Lion Heart",
+        "description": "An exploration/discussion of the life and experiences of a black woman. Sometimes it'll be deep and thoughtful and sometimes it'll be casual."
+      },
+      "show_pic": "d28dbae9dadb268d70e0f0ba2632ab7c",
+      "show_people": [],
+      "show_demo": "79121d5970450cb363faaded1bdd64ab",
+      "producer_type": "technical-help",
+      "show_category": "discussion-debate",
+      "debate_availability": [
+        ["6pm", 63],
+        ["5pm", 56],
+        ["6pm", 64],
+        ["5pm", 57],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["6pm", 69],
+        ["5pm", 62]
+      ],
+      "show": {
+        "name": "Lion Heart",
+        "hosts": [
+          {
+            "slug": "elham-2",
+            "email": "s1662417@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/bc773f7be469d19ccc9f7e7acd2e6821",
+            "name": "Elham"
+          }
+        ],
+        "description": "An exploration/discussion of the life and experiences of a black woman. Sometimes it'll be deep and thoughtful and sometimes it'll be casual.",
+        "demo": "https://cdn.freshair.dev/upload/79121d5970450cb363faaded1bdd64ab",
+        "pic": "https://cdn.freshair.dev/upload/d28dbae9dadb268d70e0f0ba2632ab7c"
+      }
+    }
+  },
+  {
+    "user": "finn",
+    "slug": "apply",
+    "createdAt": "2020-01-26T23:41:53.352Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Slumber",
+        "description": "Music to help you chill, de-stress and simply relax. Grab a cup of tea and tune in for an hour of bliss. "
+      },
+      "show_pic": "371ee1b3b60b2d26f41ec4f098ed46bf",
+      "show_people": ["finn"],
+      "show_demo": "a13531c9b64c0a99c40930697c21360f",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [["5pm", 57]],
+      "show": {
+        "name": "Slumber",
+        "hosts": [
+          {
+            "slug": "finn",
+            "email": "finnmarsden99@gmail.com",
+            "pic": "https://content.freshair.org.uk/content/images/RmNnPfGIc.jpg",
+            "name": "Finn Marsden"
+          }
+        ],
+        "description": "Music to help you chill, de-stress and simply relax. Grab a cup of tea and tune in for an hour of bliss. ",
+        "demo": "https://cdn.freshair.dev/upload/a13531c9b64c0a99c40930697c21360f",
+        "pic": "https://cdn.freshair.dev/upload/371ee1b3b60b2d26f41ec4f098ed46bf"
+      }
+    }
+  },
+  {
+    "user": "finn",
+    "slug": "apply",
+    "createdAt": "2020-01-26T23:52:10.234Z",
+    "path": [
+      "long",
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "long": true,
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Earlier",
+      "show_details": {
+        "name": "The Music Team Hub Show",
+        "description": "A weekly round up of the goings on of The FreshAir Music Team including: the weekly top ten chart; interviews; gig/album reviews; and our incredible music team co-hosts. "
+      },
+      "show_pic": "4c794f59f22d6533dae933439c0eb1e5",
+      "show_people": ["finn"],
+      "show_demo": "97c4620eeb73b8136865a2034af72ce9",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["4pm", 51],
+        ["5pm", 58]
+      ],
+      "show": {
+        "name": "The Music Team Hub Show",
+        "hosts": [
+          {
+            "slug": "finn",
+            "email": "finnmarsden99@gmail.com",
+            "pic": "https://content.freshair.org.uk/content/images/RmNnPfGIc.jpg",
+            "name": "Finn Marsden"
+          }
+        ],
+        "description": "A weekly round up of the goings on of The FreshAir Music Team including: the weekly top ten chart; interviews; gig/album reviews; and our incredible music team co-hosts. ",
+        "demo": "https://cdn.freshair.dev/upload/97c4620eeb73b8136865a2034af72ce9",
+        "pic": "https://cdn.freshair.dev/upload/4c794f59f22d6533dae933439c0eb1e5"
+      }
+    }
+  },
+  {
+    "user": "hannah-ruddy",
+    "slug": "apply",
+    "createdAt": "2020-01-26T23:59:23.461Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "post-credits-show",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["5pm", 58],
+        ["6pm", 65],
+        ["4pm", 51],
+        ["11pm", 99],
+        ["9pm", 85],
+        ["10pm", 92],
+        ["8pm", 78],
+        ["5pm", 57],
+        ["7pm", 71],
+        ["6pm", 64],
+        ["4pm", 50],
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 63],
+        ["5pm", 56],
+        ["4pm", 49],
+        ["3pm", 42],
+        ["2pm", 35],
+        ["9am", 6],
+        ["10am", 13],
+        ["10am", 12],
+        ["10am", 12],
+        ["10am", 11],
+        ["9am", 4],
+        ["9am", 5],
+        ["9am", 5],
+        ["9am", 5],
+        ["11am", 19],
+        ["11am", 20],
+        ["11am", 18],
+        ["12pm", 25],
+        ["12pm", 26],
+        ["12pm", 27],
+        ["1pm", 34],
+        ["1pm", 33],
+        ["1pm", 32],
+        ["2pm", 39],
+        ["2pm", 41],
+        ["2pm", 40],
+        ["3pm", 48],
+        ["3pm", 47],
+        ["3pm", 46],
+        ["4pm", 53],
+        ["4pm", 52],
+        ["4pm", 54],
+        ["4pm", 55],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["5pm", 60],
+        ["6pm", 67],
+        ["6pm", 68],
+        ["6pm", 69],
+        ["6pm", 69],
+        ["7pm", 76],
+        ["7pm", 75],
+        ["7pm", 74],
+        ["8pm", 81],
+        ["8pm", 82],
+        ["8pm", 83],
+        ["9pm", 90],
+        ["9pm", 89],
+        ["9pm", 88],
+        ["9pm", 88],
+        ["10pm", 95],
+        ["10pm", 96],
+        ["11pm", 104],
+        ["10pm", 97],
+        ["11pm", 103],
+        ["11pm", 102],
+        ["11pm", 101],
+        ["9pm", 87],
+        ["10pm", 94],
+        ["1pm", 31],
+        ["2pm", 38],
+        ["2pm", 38],
+        ["3pm", 45],
+        ["4pm", 52],
+        ["5pm", 59],
+        ["6pm", 66],
+        ["7pm", 73],
+        ["8pm", 80],
+        ["12pm", 24],
+        ["11am", 17],
+        ["10am", 10],
+        ["9am", 3]
+      ],
+      "show": {
+        "slug": "post-credits-show",
+        "name": "Post-Credits Show",
+        "hosts": [
+          {
+            "email": "hannah.ruddy.21@gmail.com",
+            "slug": "hannah-ruddy",
+            "pic": "https://content.freshair.org.uk/content/images/2019/10/ryan-edited-my-face.png",
+            "name": "Hannah Ruddy"
+          }
+        ],
+        "description": "a show about film, and music, and film music. listen in for tunes from, and talk\nabout, every possible film - except bohemian rhapsody",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/rhF5N-wtQ.jpg"
+      }
+    }
+  },
+  {
+    "user": "caitlin-wright",
+    "slug": "apply",
+    "createdAt": "2020-01-27T12:39:45.965Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Spotlight",
+        "description": "Every week I will be putting a different artist in the spotlight, exploring their music as well as playing tracks from similar artists."
+      },
+      "show_pic": "ccfbdd0a2d25bfdea16ae5d0e2e46058",
+      "show_people": [],
+      "show_demo": "325d64602d071d46b22d2ca2e6d547ac",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["5pm", 60],
+        ["4pm", 53],
+        ["3pm", 46],
+        ["2pm", 39],
+        ["1pm", 32],
+        ["12pm", 25],
+        ["11am", 18],
+        ["10am", 11],
+        ["9am", 4],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["4pm", 55],
+        ["3pm", 48],
+        ["1pm", 34],
+        ["2pm", 41],
+        ["12pm", 27],
+        ["11am", 20],
+        ["10am", 13],
+        ["9am", 6],
+        ["10pm", 96],
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["12pm", 26],
+        ["1pm", 33],
+        ["11am", 19],
+        ["10am", 12],
+        ["9am", 5],
+        ["7pm", 72],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["7pm", 72],
+        ["7pm", 72],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["5pm", 58],
+        ["4pm", 51],
+        ["3pm", 44],
+        ["2pm", 37],
+        ["1pm", 30],
+        ["12pm", 23],
+        ["3pm", 43],
+        ["2pm", 36],
+        ["1pm", 29],
+        ["12pm", 22]
+      ],
+      "show": {
+        "name": "Spotlight",
+        "hosts": [
+          {
+            "slug": "caitlin-wright",
+            "email": "s1844804@ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/c46c868942cfcb3b56b5b4ffd0dd027e",
+            "name": "Caitlin Wright"
+          }
+        ],
+        "description": "Every week I will be putting a different artist in the spotlight, exploring their music as well as playing tracks from similar artists.",
+        "demo": "https://cdn.freshair.dev/upload/325d64602d071d46b22d2ca2e6d547ac",
+        "pic": "https://cdn.freshair.dev/upload/ccfbdd0a2d25bfdea16ae5d0e2e46058"
+      }
+    }
+  },
+
+  {
+    "user": "molly-2",
+    "slug": "apply",
+    "createdAt": "2020-01-28T11:07:31.531Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "indie_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "bops-and-bangers-of",
+      "producer_type": "no-preference",
+      "show_category": "indie-music",
+      "indie_availability": [
+        ["9pm", 89],
+        ["8pm", 82],
+        ["7pm", 75],
+        ["6pm", 68],
+        ["5pm", 61],
+        ["4pm", 54],
+        ["3pm", 47],
+        ["2pm", 40],
+        ["1pm", 33],
+        ["12pm", 26],
+        ["11am", 19],
+        ["10am", 12],
+        ["9am", 5],
+        ["10pm", 97],
+        ["10pm", 96],
+        ["10pm", 95],
+        ["10pm", 94],
+        ["10pm", 93],
+        ["9pm", 85],
+        ["5pm", 57],
+        ["1pm", 29],
+        ["12pm", 22],
+        ["11am", 15],
+        ["10am", 8],
+        ["9am", 1],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["3pm", 42],
+        ["2pm", 35],
+        ["1pm", 28],
+        ["12pm", 21],
+        ["11am", 14],
+        ["10am", 7],
+        ["9am", 0]
+      ],
+      "show": {
+        "slug": "bops-and-bangers-of",
+        "name": "Bops and bangers of...",
+        "hosts": [
+          {
+            "email": "mollycarsn@gmail.com",
+            "slug": "molly",
+            "pic": null,
+            "name": "Molly Carson"
+          }
+        ],
+        "description": "Each week a different city, each week the same old spiel of musical history.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/3nHB_E_NR.jpg"
+      }
+    }
+  },
+  {
+    "user": "matthew",
+    "slug": "apply",
+    "createdAt": "2020-01-28T12:25:45.570Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_details",
+      "show_pic",
+      "show_people",
+      "show_demo",
+      "producer_type",
+      "show_category",
+      "debate_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "No",
+      "show_details": {
+        "name": "Empty Nesters",
+        "description": "Fourth year is happening and a lot of people are disappearing from Edinburgh. I want to have one guest per week and talk to them about their plans after uni/favourite bits from uni/where they see themselves in 10 years through the songs which mean something to them. It's gonna be some good wholesome audio entertainment. "
+      },
+      "show_pic": "c6f6a629e3f857058bd55e3e2b6c8c9f",
+      "show_people": [],
+      "show_demo": "cd3348a3e9b13a5d3c13d5e8ddda11d7",
+      "producer_type": "no-preference",
+      "show_category": "discussion-debate",
+      "debate_availability": [["1pm", 0]],
+      "show": {
+        "name": "Empty Nesters",
+        "hosts": [
+          {
+            "slug": "matthew",
+            "email": "s1603457@sms.ed.ac.uk",
+            "pic": "https://cdn.freshair.dev/upload/c6312b519879fb2f775789c88cea0b09",
+            "name": "Matthew Sedman"
+          }
+        ],
+        "description": "Fourth year is happening and a lot of people are disappearing from Edinburgh. I want to have one guest per week and talk to them about their plans after uni/favourite bits from uni/where they see themselves in 10 years through the songs which mean something to them. It's gonna be some good wholesome audio entertainment. ",
+        "demo": "https://cdn.freshair.dev/upload/cd3348a3e9b13a5d3c13d5e8ddda11d7",
+        "pic": "https://cdn.freshair.dev/upload/c6f6a629e3f857058bd55e3e2b6c8c9f"
+      }
+    }
+  },
+  {
+    "user": "sophie",
+    "slug": "apply",
+    "createdAt": "2020-01-28T13:43:51.445Z",
+    "path": [
+      "long",
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_availability"
+    ],
+    "data": {
+      "long": true,
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "the-sunday-sesh",
+      "producer_type": "no-preference",
+      "show_category": "pop-music",
+      "pop_availability": [
+        ["6pm", 69],
+        ["5pm", 62]
+      ],
+      "show": {
+        "slug": "the-sunday-sesh",
+        "name": "The Sunday Sesh",
+        "hosts": [
+          {
+            "email": "secsmith14@gmail.com",
+            "slug": "sophie",
+            "pic": "https://content.freshair.org.uk/content/images/lStoatwoV.jpg",
+            "name": "Sophie Smith"
+          }
+        ],
+        "description": "Sundays from 5-6pm, Sophie and Matthew bring you the best tunes, funny stories\nand banter the radio has to offer.",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/Xum7XRmzH.png"
+      }
+    }
+  },
+  {
+    "user": "jelena",
+    "slug": "apply",
+    "createdAt": "2020-01-28T22:47:40.090Z",
+    "path": [
+      "long",
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "long": true,
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "the-arts-show",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [
+        ["7pm", 71],
+        ["6pm", 64]
+      ],
+      "show": {
+        "slug": "the-arts-show",
+        "name": "The Arts Show",
+        "hosts": [
+          {
+            "email": "s1606373@ed.ac.uk",
+            "slug": "jelena",
+            "pic": "https://content.freshair.org.uk/content/images/2019/10/HIM_6395E.jpg",
+            "name": "Jelena Sofronijevic"
+          }
+        ],
+        "description": "The Arts Show on FreshAir.org.uk, with Jelena Sofronijevic. Tune in every week\nfor exclusive reviews, interviews, and events from Edinburgh’s diverse arts\nscene – from theatre to literature, film to the visual arts.",
+        "demo": "",
+        "pic": null
+      }
+    }
+  },
+  {
+    "user": "jennifer",
+    "slug": "apply",
+    "createdAt": "2020-01-28T22:54:12.198Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "hidden-gems",
+      "producer_type": "no-preference",
+      "show_category": "other",
+      "other_availability": [["4pm", 55]],
+      "show": {
+        "slug": "hidden-gems",
+        "name": "Hidden Gems",
+        "hosts": [
+          {
+            "email": "jenlogann@gmail.com",
+            "slug": "jennifer",
+            "pic": null,
+            "name": "Jennifer Logan"
+          }
+        ],
+        "description": "Tune in every Sunday at 4-5pm to hear some musical hidden gems - songs that are\nunderrated, from popular artists as well as small indie bands, and new releases\nthat aren't getting as much attention as they should be. Don't forget to get\ninvolved on twitter @HiddenGemsEdi !",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/hgpinkorangescaled-2.png"
+      }
+    }
+  },
+  {
+    "user": "alfie_steiner",
+    "slug": "apply",
+    "createdAt": "2020-01-28T23:25:39.237Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "sport_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "freshair-sports-hub",
+      "producer_type": "technical-help",
+      "show_category": "sport",
+      "sport_availability": [
+        ["11am", 15],
+        ["11am", 14]
+      ],
+      "show": {
+        "slug": "freshair-sports-hub",
+        "name": "FreshAir Sports Hub",
+        "hosts": [
+          {
+            "email": "willredpath@outlook.com",
+            "slug": "will",
+            "pic": null,
+            "name": "Will Redpath"
+          },
+          {
+            "email": "johnsonpeterf@gmail.com",
+            "slug": "peter",
+            "pic": "https://content.freshair.org.uk/content/images/2019/10/fullsizeoutput_ae4.jpeg",
+            "name": "Peter Johnson"
+          },
+          {
+            "email": "alfie.steiner@gmail.com",
+            "slug": "alfie_steiner",
+            "pic": "https://content.freshair.org.uk/content/images/i7PMQ2l_5.jpg",
+            "name": "Alfie Steiner"
+          },
+          {
+            "email": "ollylh@hotmail.com",
+            "slug": "olly",
+            "pic": null,
+            "name": "Olly Lloyd-Hooker"
+          }
+        ],
+        "description": "Weekly show dedicated to bringing you the latest sports news from around the\nworld, reports from Hearts and Hibs games, as well as debates and discussion\ncovering a range of sporting events!",
+        "demo": "",
+        "pic": "https://content.freshair.org.uk/content/images/2019/10/freshairsport.jpg"
+      }
+    }
+  },
+  {
+    "user": "honor",
+    "slug": "apply",
+    "createdAt": "2020-01-29T15:00:33.529Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "pop_culture_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "producer_type": "no-preference",
+      "show_category": "pop-culture",
+      "pop_culture_availability": [["7pm", 70]]
+    }
+  },
+  {
+    "user": "user",
+    "slug": "apply",
+    "createdAt": "2020-02-02T11:48:02.202Z",
+    "path": [
+      "info",
+      "member",
+      "show_exists",
+      "show_slug",
+      "producer_type",
+      "show_category",
+      "other_music_availability"
+    ],
+    "data": {
+      "info": "I'm ready",
+      "member": "Yes",
+      "show_exists": "Last Semester",
+      "show_slug": "general-election-2019",
+      "producer_type": "no-preference",
+      "show_category": "other-music",
+      "other_music_availability": [
+        ["11pm", 98],
+        ["10pm", 91],
+        ["9pm", 84],
+        ["8pm", 77],
+        ["7pm", 70],
+        ["6pm", 64],
+        ["7pm", 71],
+        ["8pm", 78],
+        ["9pm", 85],
+        ["10pm", 92],
+        ["11pm", 99],
+        ["11pm", 100],
+        ["10pm", 93],
+        ["9pm", 86],
+        ["8pm", 79],
+        ["7pm", 72],
+        ["6pm", 65],
+        ["6pm", 66],
+        ["7pm", 73],
+        ["8pm", 80],
+        ["9pm", 87],
+        ["10pm", 94],
+        ["11pm", 101],
+        ["11pm", 102],
+        ["10pm", 95],
+        ["9pm", 88],
+        ["8pm", 81],
+        ["7pm", 74],
+        ["6pm", 67],
+        ["6pm", 68],
+        ["7pm", 75],
+        ["8pm", 82],
+        ["9pm", 89],
+        ["10pm", 96],
+        ["11pm", 103],
+        ["11pm", 104],
+        ["10pm", 97],
+        ["9pm", 90],
+        ["8pm", 83],
+        ["7pm", 76],
+        ["6pm", 69],
+        ["5pm", 62],
+        ["5pm", 61],
+        ["5pm", 60],
+        ["5pm", 59],
+        ["5pm", 58],
+        ["5pm", 57],
+        ["5pm", 56],
+        ["6pm", 63]
+      ],
+      "show": {
+        "slug": "general-election-2019",
+        "name": "General Election 2019",
+        "hosts": [
+          {
+            "email": "throwaway@macleod.space",
+            "slug": "samuel-penalosa",
+            "pic": null,
+            "name": "Samuel Penalosa"
+          }
+        ],
+        "description": "Tune in for our live broadcast, bringing you the latest news from constituencies\nacross the country",
+        "demo": "",
+        "pic": null
+      }
+    }
+  }
+]
