@@ -40,7 +40,7 @@
           "$exists": "membership_bought"
         }
       },
-      "type": "filter",
+      "type": "select",
       "title": "Which position do you want to stand for?",
       "body": "Have a read through the position descriptions at stand.freshair.org.uk to see what each role entails.",
       "data": [
