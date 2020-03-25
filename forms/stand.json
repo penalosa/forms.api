@@ -17,7 +17,7 @@
       "after": "info",
       "type": "select",
       "title": "Which position do you want to stand for?",
-      "body": "Have a read through the position descriptions at stand.freshair.org.uk to see what each role entails.",
+      "body": "Have a read through the position descriptions at freshair.org.uk/stand to see what each role entails.",
       "data": [
         {
           "name": "Secretary",
