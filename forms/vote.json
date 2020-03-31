@@ -308,11 +308,32 @@
         }
       ]
     },
+    "secretary": {
+      "logic": {
+        "$exists": "treasurer"
+      },
+      "after": "treasurer",
+      "type": "select",
+      "title": "Secretary",
+      "body": "Read each candidate's manifesto at freshair.org.uk/manifesto before you vote",
+      "data": [
+        {
+          "name": "Finn Marsden",
+          "slug": "finn",
+          "pic": "https://content.freshair.org.uk/content/images/RmNnPfGIc.jpg"
+        },
+        {
+          "name": "None of the above",
+          "slug": "ron",
+          "pic": ""
+        }
+      ]
+    },
 
     "finished": {
-      "logic": { "$exists": "treasurer" },
+      "logic": { "$exists": "secretary" },
 
-      "after": "treasurer",
+      "after": "secretary",
       "type": "last",
       "title": "Thanks for voting - the results will be announced on Facebook in a couple days."
     }
