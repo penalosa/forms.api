@@ -266,11 +266,53 @@
         }
       ]
     },
+    "arts": {
+      "logic": {
+        "$exists": "sport"
+      },
+      "after": "sport",
+      "type": "select",
+      "title": "Head of Arts",
+      "body": "Read each candidate's manifesto at freshair.org.uk/manifesto before you vote",
+      "data": [
+        {
+          "name": "Maisy Hallam",
+          "slug": "maisy",
+          "pic": "https://content.freshair.org.uk/ghost/assets/img/user-image-0d67f7ca80917835524605cf4d106aef.png"
+        },
+        {
+          "name": "None of the above",
+          "slug": "ron",
+          "pic": ""
+        }
+      ]
+    },
+    "treasurer": {
+      "logic": {
+        "$exists": "arts"
+      },
+      "after": "arts",
+      "type": "select",
+      "title": "Treasurer",
+      "body": "Read each candidate's manifesto at freshair.org.uk/manifesto before you vote",
+      "data": [
+        {
+          "name": "Patrick Kage",
+          "slug": "patrick",
+          "pic": "https://scontent.flhr2-2.fna.fbcdn.net/v/t1.0-1/c0.0.200.200a/p200x200/69911094_2444255232498173_1592755636372766720_o.jpg?_nc_cat=110&_nc_sid=dbb9e7&_nc_ohc=CI0RUV7R2psAX-Ftz2w&_nc_ht=scontent.flhr2-2.fna&oh=7899f956bea3b2db5f6f60239d1e4078&oe=5EA78734"
+        },
+        {
+          "name": "None of the above",
+          "slug": "ron",
+          "pic": ""
+        }
+      ]
+    },
 
     "finished": {
-      "logic": { "$exists": "sport" },
+      "logic": { "$exists": "treasurer" },
 
-      "after": "sport",
+      "after": "treasurer",
       "type": "last",
       "title": "Thanks for voting - the results will be announced on Facebook in a couple days."
     }
