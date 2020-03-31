@@ -93,6 +93,34 @@ app.get("/results/contract", async (req, res) => {
   }
 });
 
+app.get("/results/stand", async (req, res) => {
+  candidates = await Form.find({ slug: "stand" }, [
+    "slug",
+    "createdAt",
+    "user",
+    "data",
+    "path"
+  ]);
+  candidates = await Promise.all(
+    candidates.map(async c => {
+      let u = await Admin.users.read({ slug: c.user });
+      return {
+        ...c,
+        user: {
+          slug: u.slug,
+          email: u.email,
+          pic: u.profile_image
+            ? u.profile_image.startsWith("http")
+              ? u.profile_image
+              : `https://cdn.freshair.dev/upload/${u.profile_image}`
+            : "",
+          name: u.name
+        }
+      };
+    })
+  );
+  return res.json(ret);
+});
 app.get("/results/apply", async (req, res) => {
   try {
     let ret = await Promise.all(
