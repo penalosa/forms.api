@@ -33,7 +33,7 @@
       "title": "Tell us a bit about this episode",
       "inputs": [
         {
-          "key": "name",
+          "key": "ename",
           "type": "text",
           "placeholder": "Episode name..."
         },
